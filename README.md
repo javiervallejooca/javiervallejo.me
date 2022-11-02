@@ -1,6 +1,6 @@
 # javiervallejo.me
 
-[Web personal](https://javiervallejo.me) usada a modo de CV
+[Web personal](https://javiervallejo.me/) usada a modo de CV
 
 Proyecto realizado en VITE con React y TailwindCSS
 

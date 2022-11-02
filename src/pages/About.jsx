@@ -140,9 +140,9 @@ const About = () => {
             conocimientos y poder aplicarlos en mi día a día.
           </p>
           <p className="mb-4">
-            A día de hoy me encuentro realizando un proyecto con el stack de
-            MERN (MongoDB, Express, React y Node) y asó adquirir y afianzar mis
-            conocimientos.
+            Actuamente, encuentro realizando un proyecto con el stack de MERN
+            (MongoDB, Express, React y Node) con el estoy aprendiendo nuevos
+            frameworks y metodologías de desarrollo.
           </p>
         </div>
       </div>

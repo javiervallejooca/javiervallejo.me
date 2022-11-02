@@ -96,13 +96,13 @@ const Company = ({
               WordPress.
             </p>
             <p className="mb-4">
-              De nuevo, soy el responsable del desarollo del departamento web de
-              la empresa, cerrando de nuevo el círculo entre las reuniones de
+              De nuevo, soy el responsable del desarrollo en el departamento web
+              de la empresa, cerrando de nuevo el círculo entre las reuniones de
               toma de requisitos, desarrollo de producto y formación a cliente.
             </p>
             <p className="mb-4">
-              Por necesidades de la empresa me forman en React y desarrollo
-              trabajos a medida.
+              Por necesidades de la empresa me forman en React y participo en el
+              desarrollo de trabajos a medida.
             </p>{" "}
             <p className="mb-4">
               Amplio mi experiencia en React y otros frameworks JavaScript,

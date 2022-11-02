@@ -10,7 +10,6 @@ const Company = ({
   technologies,
   current = false,
 }) => {
-  const [description, setDescription] = useState("");
   const [dateFrom, setDateFrom] = useState(new Date(textDateFrom));
   const [dateTo, setDateTo] = useState(new Date(textDateTo));
   const [months, setMonths] = useState(0);
@@ -88,8 +87,8 @@ const Company = ({
         {company === "iteisa" && (
           <>
             <p className="mb-4">
-              Enfocado "originalmente" para realizar trabajos de desarrollo web
-              en CMS.
+              Enfocado "originalmente" a realizar trabajos de desarrollo web en
+              CMS.
             </p>
             <p className="mb-4">
               He desarrollado varios plugins para cumplir las necesidades de los
@@ -97,19 +96,19 @@ const Company = ({
               WordPress.
             </p>
             <p className="mb-4">
-              De nuevo, era el responsable del desarollo departamente web,
-              cerrando de nuevo el circulo de reunión para toma de requisitos,
-              desarrollo y formación.
+              De nuevo, soy el responsable del desarollo del departamento web de
+              la empresa, cerrando de nuevo el círculo entre las reuniones de
+              toma de requisitos, desarrollo de producto y formación a cliente.
             </p>
             <p className="mb-4">
-              Por necesidades de la empresa me forman en React y hago trabajos
-              de desarrollo a medida y el desarrollo web.
+              Por necesidades de la empresa me forman en React y desarrollo
+              trabajos a medida.
             </p>{" "}
             <p className="mb-4">
               Amplio mi experiencia en React y otros frameworks JavaScript,
               adquiero conocimientos de desarrollo de APIs y el uso de GIT como
-              control de versiones, utilizando integraciones continuas para los
-              despliegues.
+              software de control de versiones, utilizando integraciones
+              continuas para los despliegues.
             </p>
           </>
         )}
@@ -125,28 +124,26 @@ const Company = ({
             <p className="mb-4">
               Al tener soltura para hablar con clientes y darles exitosamente la
               formación para que fueran capaces para la auto gestión de
-              contenidos de web.
+              contenidos de web empecé a realizar labores como técnico
+              comercial.
             </p>
             <p className="mb-4">
-              Empecé a realizar la toma de requisitos para orientarles en sus
-              proyectos webs, además luego me encargaba del propio desarrollo y
-              preparar al cliente y que aprendiera cómo manejar su plataforma.
-            </p>
-            <p className="mb-4">
-              {" "}
-              Por necesidades de la empresa, aprendí conocimiento para que
-              páginas webs aparezcan en Google, consiguiendo posicionar ciertos
-              servicios de la empresa en las primeras posiciones del mercado
-              nacional.
-            </p>
-            <p className="mb-4">
-              Posteriormente se puedo ofrecer un servicios de auditorias web
-              para lograr aparecer en Google según la temática del cliente.
+              Desde la toma de requisitos, para orientarles en sus proyectos
+              webs, hasta el propio desarrollo y la preparación de documentación
+              y formación para que el cliente aprendiera cómo manejar su
+              plataforma.
             </p>
             <p className="mb-4">
               {" "}
-              En los últimos años enfocaron mis trabajos al desarrollo a medida,
-              trabajando principalmente con PHP y jQuery, utilizando el
+              Por necesidades de la empresa, aprendí conocimientos de SEO para
+              conseguir que páginas webs aparezcan en Google, consiguiendo
+              posicionar ciertos servicios de la empresa en las primeras
+              posiciones del mercado nacional.
+            </p>
+            <p className="mb-4">
+              {" "}
+              En los últimos años se enfocaron mis trabajos e el desarrollo a
+              medida, trabajando principalmente con PHP y jQuery, utilizando el
               framework CodeIgniter.
             </p>
           </>

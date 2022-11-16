@@ -48,7 +48,7 @@ const Company = ({
       misMeses = 0;
     }
 
-    setMonths(misMeses);
+    setMonths(misMeses + 1);
     setYears(i);
   }, []);
 
@@ -92,7 +92,7 @@ const Company = ({
             </p>
             <p className="mb-4">
               He desarrollado varios plugins para cumplir las necesidades de los
-              clientes, obtiendo un punto de visto mucho más profundo de
+              clientes, obteniendo un punto de visto mucho más profundo de
               WordPress.
             </p>
             <p className="mb-4">

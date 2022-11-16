@@ -14,7 +14,7 @@ const About = () => {
             ellos.
           </p>
           <p className="mb-4">
-            Tras finalizar el grado superior de desarollo de aplicaciones
+            Tras finalizar el grado superior de desarrollo de aplicaciones
             informáticas, me animo a estudiar la carrera de{" "}
             <span className="bg-slate-400 text-slate-800 px-1">
               ingeniería informática
@@ -35,15 +35,14 @@ const About = () => {
         </div>
         <div className="text-slate-400 mb-4">
           <p className="mb-4">
-            Los últimos años de la carrera estudiaba y trabaja, por lo que por
-            suerte, llevo{" "}
+            Los últimos años de la carrera estudiaba y trabaja, es decir, llevo{" "}
             <span className="bg-slate-400 text-slate-800 px-1">
               trabajando de forma continua durante los últimos 7 años.
             </span>
           </p>
           <p className="mb-4">
-            Este sería <u>orden cronológico inverso</u> donde he estado
-            trabajando.
+            Este sería en <u>orden cronológico inverso</u> las empresas donde he
+            estado trabajando.
           </p>
         </div>
         <Company
@@ -125,14 +124,13 @@ const About = () => {
         <div className="text-slate-400">
           <p className="mb-4">
             Laboralmente hablando, si tuviera que definirme con tres adjetivos
-            seleccionaria los siguientes:
+            seleccionaría los siguientes:
           </p>
           <ul class="list-disc list-inside mb-4">
             <li>Proactivo: Soy un culo inquieto...</li>
             <li>Responsable: Me gusta que el trabajo salga perfecto.</li>
             <li>
-              Eficaz: Procuro hacer el trabajo en el menor tiempo posible sin
-              que la calidad del producto se vea afectada.
+              Versátil: Me amoldo a trabajar y aprender distintas teconologías.
             </li>
           </ul>
           <p className="mb-4">
@@ -140,9 +138,9 @@ const About = () => {
             conocimientos y poder aplicarlos en mi día a día.
           </p>
           <p className="mb-4">
-            Actuamente, encuentro realizando un proyecto con el stack de MERN
-            (MongoDB, Express, React y Node) con el estoy aprendiendo nuevos
-            frameworks y metodologías de desarrollo.
+            Actualmente, me encuentro realizando un proyecto con el stack de
+            MERN (MongoDB, Express, React y Node) con el que estoy aprendiendo
+            conocimientos de nuevos frameworks y metodologías de desarrollo.
           </p>
         </div>
       </div>

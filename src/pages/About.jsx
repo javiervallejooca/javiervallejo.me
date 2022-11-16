@@ -1,7 +1,14 @@
-import Company from "../components/Company";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
+import Company from "../components/Company";
+
 const About = () => {
+  const fechaMercadoLaboral = 2015;
+  const workingSince = new Date().getFullYear() - fechaMercadoLaboral;
+
+  const [date, setDate] = useState(workingSince);
+
   return (
     <div className="flex flex-col items-center justify-center pt-5 sm:pt-12 pb-8 font-poppins">
       <div className="w-5/6 sm:w-3/4 md:w-3/5 xl:max-w-5xl relative mb-4">
@@ -37,7 +44,7 @@ const About = () => {
           <p className="mb-4">
             Los últimos años de la carrera estudiaba y trabaja, es decir, llevo{" "}
             <span className="bg-slate-400 text-slate-800 px-1">
-              trabajando de forma continua durante los últimos 7 años.
+              trabajando de forma continua durante los últimos {date} años.
             </span>
           </p>
           <p className="mb-4">

@@ -1,4 +1,4 @@
-import React from "react";
+import react from "../img/react.svg";
 import vite from "../img/vite.svg";
 import tailwind from "../img/tailwindcss.svg";
 
@@ -14,6 +14,14 @@ const Footer = () => {
           className="h-4 w-4 mx-1 "
           src={vite}
         />{" "}
+        +
+        <img
+          name="React"
+          alt="React"
+          title="React"
+          className="h-4 w-4 mx-1 fill-white"
+          src={react}
+        />
         +
         <img
           name="Tailwind CSS"

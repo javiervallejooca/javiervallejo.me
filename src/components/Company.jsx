@@ -96,19 +96,26 @@ const Company = ({
               WordPress.
             </p>
             <p className="mb-4">
-              De nuevo, soy el responsable del desarrollo en el departamento web
-              de la empresa, cerrando de nuevo el círculo entre las reuniones de
-              toma de requisitos, desarrollo de producto y formación a cliente.
+              Gracias a este conocimiento, también he retocado temas, por lo que
+              sería capaz de hacer un theme o tema a medida.
             </p>
             <p className="mb-4">
-              Por necesidades de la empresa me forman en React y participo en el
-              desarrollo de trabajos a medida.
+              De nuevo, soy el responsable del desarrollo en el departamento web
+              de la empresa, cerrando de nuevo el círculo entre las reuniones de
+              toma de requisitos, desarrollo del producto y formación a cliente.
+            </p>
+            <p className="mb-4">
+              Por necesidades de la empresa me formo en React y participo en el
+              proceso de desarrollos de software a medida. Parte de estos
+              trabajos son el mantenimiento de aplicaciones web, resolviendo
+              bugs y aportando nuevas funcionalidades. También participo en el
+              desarrollo de nuevos proyectos.
             </p>{" "}
             <p className="mb-4">
-              Amplio mi experiencia en React y otros frameworks JavaScript,
-              adquiero conocimientos de desarrollo de APIs y el uso de GIT como
-              software de control de versiones, utilizando integraciones
-              continuas para los despliegues.
+              Amplio mi experiencia en React y otros frameworks JavaScript, como
+              NextJS y Eleventy. Adquiero conocimientos en el desarrollo de APIs
+              y el uso de GIT como software de control de versiones, utilizando
+              integraciones continuas para los despliegues.
             </p>
           </>
         )}

@@ -31,8 +31,9 @@ const Inicio = () => {
               </p>
 
               <p className="text-center text-slate-400 pt-3 pb-6 font-normal font-poppins">
-                PHP<br></br> JavaScript <br></br>WordPress<br></br>PrestaShop{" "}
-                <br></br> SEO<br></br>MERN Stack
+                PHP<br></br>React<br></br> JavaScript <br></br>WordPress
+                <br></br>PrestaShop<br></br> SEO<br></br>MERN Stack (trabajando
+                en ello...)
               </p>
 
               <Link

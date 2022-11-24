@@ -88,41 +88,36 @@ const Company = ({
           <>
             <p className="mb-4">
               Enfocado "originalmente" a realizar trabajos de desarrollo web en
-              CMS.
+              CMS, como WordPress, PrestaShop y Moodle.
             </p>
             <p className="mb-4">
-              He desarrollado varios plugins para cumplir las necesidades de los
-              clientes, obteniendo un punto de visto mucho más profundo de
-              WordPress.
+              He desarrollado varios plugins para WordPress y así cumplir las
+              necesidades de los clientes, obteniendo un punto de visto mucho
+              más profundo de este gestor de contenidos.
             </p>
             <p className="mb-4">
               Gracias a este conocimiento, también he retocado temas, por lo que
               sería capaz de hacer un theme o tema a medida.
             </p>
             <p className="mb-4">
-              De nuevo, soy el responsable del desarrollo en el departamento web
-              de la empresa, cerrando de nuevo el círculo entre las reuniones de
-              toma de requisitos, desarrollo del producto y formación a cliente.
+              En ITEISA soy el responsable del desarrollo en el departamento
+              web, cerrando el círculo entre las reuniones iniciales, las
+              reuniones de toma de requisitos, el desarrollo del producto y la
+              formación a cliente.
             </p>
             <p className="mb-4">
               ITEISA es una empresa que ofrece servicios de hosting, por lo que
               muchos días tengo que trabajar en varios proyectos web ya que
               recibiamos tickets para actualizar plataformas, configurar algún
-              plugin, arreglar fallos... Los cambios de contexto son habituales
-              en mi día a día.
+              plugin, arreglar fallos... Esto provoca que los cambios de
+              contexto son habituales en mi día a día.
             </p>
             <p className="mb-4">
-              Por necesidades de la empresa me formo en React y participo en el
-              proceso de desarrollos de software a medida. Parte de estos
-              trabajos son el mantenimiento de aplicaciones web, resolviendo
-              bugs y aportando nuevas funcionalidades. También participo en el
-              desarrollo de nuevos proyectos.
-            </p>
-            <p className="mb-4">
-              Amplio mi experiencia en React y otros frameworks JavaScript, como
-              NextJS y Eleventy. Adquiero conocimientos en el desarrollo de APIs
-              y el uso de GIT como software de control de versiones, utilizando
-              integraciones continuas para los despliegues.
+              Amplio mi experiencia como trabajador, empiezo a ayudar en
+              proyectos de React y otros frameworks JavaScript, como NextJS y
+              11th(Eleventy). Además, adquiero conocimientos en el desarrollo de
+              APIs y el uso de GIT como software de control de versiones,
+              utilizando integraciones continuas para los despliegues.
             </p>
           </>
         )}
@@ -133,8 +128,8 @@ const Company = ({
               Mi primera experiencia laboral como informático.
             </p>
             <p>
-              Los primeros 6 meses aprex. estuve de desarrollando en un software
-              propio de la empresa en C#.
+              Inicialmente y el motivo por el que entré, fue para ayudar a
+              desarrollar un software propio en C#.
             </p>
             <p className="mb-4">
               Cuando se acabó dicho proyecto me propusieron realizar desarrollos
@@ -142,25 +137,25 @@ const Company = ({
             </p>
             <p className="mb-4">
               Al tener soltura para hablar con clientes y darles, exitosamente,
-              la formación para que fueran capaces de auto gestionar su, me
-              empezaron a pasar labores como técnico comercial.
+              la formación para que fueran capaces de autogestionar sus
+              contenidos, me empezaron a pasar labores como técnico comercial.
             </p>
             <p className="mb-4">
-              Las labores consistían en la toma de requisitos, orientación en
-              sus proyectos, el propio desarrollo, la preparación de
-              documentación y formación para que el cliente aprendiera cómo
-              manejar su plataforma.
+              Los trabajos consistían en la toma de requisitos, orientación a
+              los clientes en sus proyectos, el propio desarrollo, la
+              preparación de documentación y formación para que el cliente
+              aprendiera cómo manejar su plataforma.
             </p>
             <p className="mb-4">
-              Por necesidades de la empresa, aprendí conocimientos de SEO para
-              conseguir que páginas webs aparezcan en Google, consiguiendo
-              posicionar ciertos servicios de la empresa en las primeras
-              posiciones del mercado nacional.
+              Por necesidades laborales, aprendí conocimientos de SEO para
+              conseguir que páginas webs aparecieran en buenas posiciones en el
+              buscador de Google, consiguiendo posicionar servicios de la web de
+              Zitelia en las primeras posiciones del mercado nacional.
             </p>
             <p className="mb-4">
-              En los últimos años, por necesidadesde la empresa, mis trabajos se
-              enfocaron en el desarrollo a medida, trabajando principalmente con
-              PHP, utilizando el framework CodeIgniter.
+              En los últimos años, enfocan mis trabajos en el desarrollo de
+              software a medida, trabajando principalmente con PHP. Utilizando
+              el framework CodeIgniter a modo de sistema monolítico.
             </p>
           </>
         )}

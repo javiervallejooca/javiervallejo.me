@@ -64,6 +64,12 @@ const About = () => {
               name: "React",
             },
             {
+              name: "NextJs",
+            },
+            {
+              name: "11th",
+            },
+            {
               name: "WordPress",
             },
             {

@@ -105,12 +105,19 @@ const Company = ({
               toma de requisitos, desarrollo del producto y formación a cliente.
             </p>
             <p className="mb-4">
+              ITEISA es una empresa que ofrece servicios de hosting, por lo que
+              muchos días tengo que trabajar en varios proyectos web ya que
+              recibiamos tickets para actualizar plataformas, configurar algún
+              plugin, arreglar fallos... Los cambios de contexto son habituales
+              en mi día a día.
+            </p>
+            <p className="mb-4">
               Por necesidades de la empresa me formo en React y participo en el
               proceso de desarrollos de software a medida. Parte de estos
               trabajos son el mantenimiento de aplicaciones web, resolviendo
               bugs y aportando nuevas funcionalidades. También participo en el
               desarrollo de nuevos proyectos.
-            </p>{" "}
+            </p>
             <p className="mb-4">
               Amplio mi experiencia en React y otros frameworks JavaScript, como
               NextJS y Eleventy. Adquiero conocimientos en el desarrollo de APIs
@@ -125,33 +132,35 @@ const Company = ({
             <p className="mb-4">
               Mi primera experiencia laboral como informático.
             </p>
-            <p className="mb-4">
-              Empecé realizando desarrollos web para WordPress y PrestaShop.
+            <p>
+              Los primeros 6 meses aprex. estuve de desarrollando en un software
+              propio de la empresa en C#.
             </p>
             <p className="mb-4">
-              Al tener soltura para hablar con clientes y darles exitosamente la
-              formación para que fueran capaces para la auto gestión de
-              contenidos de web empecé a realizar labores como técnico
-              comercial.
+              Cuando se acabó dicho proyecto me propusieron realizar desarrollos
+              web en WordPress y PrestaShop.
             </p>
             <p className="mb-4">
-              Desde la toma de requisitos, para orientarles en sus proyectos
-              webs, hasta el propio desarrollo y la preparación de documentación
-              y formación para que el cliente aprendiera cómo manejar su
-              plataforma.
+              Al tener soltura para hablar con clientes y darles, exitosamente,
+              la formación para que fueran capaces de auto gestionar su, me
+              empezaron a pasar labores como técnico comercial.
             </p>
             <p className="mb-4">
-              {" "}
+              Las labores consistían en la toma de requisitos, orientación en
+              sus proyectos, el propio desarrollo, la preparación de
+              documentación y formación para que el cliente aprendiera cómo
+              manejar su plataforma.
+            </p>
+            <p className="mb-4">
               Por necesidades de la empresa, aprendí conocimientos de SEO para
               conseguir que páginas webs aparezcan en Google, consiguiendo
               posicionar ciertos servicios de la empresa en las primeras
               posiciones del mercado nacional.
             </p>
             <p className="mb-4">
-              {" "}
-              En los últimos años se enfocaron mis trabajos e el desarrollo a
-              medida, trabajando principalmente con PHP y jQuery, utilizando el
-              framework CodeIgniter.
+              En los últimos años, por necesidadesde la empresa, mis trabajos se
+              enfocaron en el desarrollo a medida, trabajando principalmente con
+              PHP, utilizando el framework CodeIgniter.
             </p>
           </>
         )}

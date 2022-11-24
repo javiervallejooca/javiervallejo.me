@@ -48,8 +48,8 @@ const About = () => {
             </span>
           </p>
           <p className="mb-4">
-            Este sería en <u>orden cronológico inverso</u> las empresas donde he
-            estado trabajando.
+            Este sería el <u>orden cronológico inverso</u> de las empresas donde
+            he estado/estoy trabajando.
           </p>
         </div>
         <Company
@@ -91,6 +91,9 @@ const About = () => {
           job="Desarrollador de software"
           company="zitelia"
           technologies={[
+            {
+              name: "C#",
+            },
             {
               name: "WordPress",
             },
@@ -141,7 +144,7 @@ const About = () => {
             </li>
           </ul>
           <p className="mb-4">
-            Mi sigo formando en mis ratos libres para obtener mayores
+            Me sigo formando en mis ratos libres para obtener mayores
             conocimientos y poder aplicarlos en mi día a día.
           </p>
           <p className="mb-4">

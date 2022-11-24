@@ -1,5 +1,10 @@
 import { Link } from "react-router-dom";
 const Inicio = () => {
+  console.log(
+    "Gracias a todos las personas que me han enseñado y me han hecho convertirme en el trabajador que soy."
+  );
+  console.log("Thx to A. Guerra, que me inspiró para hacer esta web");
+
   return (
     <>
       <div className="flex items-center justify-center h-screen">

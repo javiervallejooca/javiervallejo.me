@@ -107,15 +107,15 @@ const Company = ({
             </p>
             <p className="mb-4">
               ITEISA es una empresa que ofrece servicios de hosting, por lo que
-              muchos días tengo que trabajar en varios proyectos web ya que
-              recibiamos tickets para actualizar plataformas, configurar algún
+              muchos días tengo que trabajar en varios proyectos web, ya que
+              recibimos tickets para actualizar plataformas, configurar algún
               plugin, arreglar fallos... Esto provoca que los cambios de
               contexto son habituales en mi día a día.
             </p>
             <p className="mb-4">
               Amplio mi experiencia como trabajador, empiezo a ayudar en
               proyectos de React y otros frameworks JavaScript, como NextJS y
-              11th(Eleventy). Además, adquiero conocimientos en el desarrollo de
+              11ty(Eleventy). Además, adquiero conocimientos en el desarrollo de
               APIs y el uso de GIT como software de control de versiones,
               utilizando integraciones continuas para los despliegues.
             </p>

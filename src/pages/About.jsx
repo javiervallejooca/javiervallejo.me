@@ -67,7 +67,7 @@ const About = () => {
               name: "NextJs",
             },
             {
-              name: "11th",
+              name: "11ty",
             },
             {
               name: "WordPress",
@@ -146,7 +146,7 @@ const About = () => {
             <li>Proactivo: Soy un culo inquieto...</li>
             <li>Responsable: Me gusta que el trabajo salga perfecto.</li>
             <li>
-              Versátil: Me amoldo a trabajar y aprender distintas teconologías.
+              Versátil: Me amoldo a trabajar y aprender distintas tecnologías.
             </li>
           </ul>
           <p className="mb-4">

@@ -113,11 +113,11 @@ const Company = ({
               contexto son habituales en mi día a día.
             </p>
             <p className="mb-4">
-              Amplio mi experiencia como trabajador, empiezo a ayudar en
-              proyectos de React y otros frameworks JavaScript, como NextJS y
-              11ty(Eleventy). Además, adquiero conocimientos en el desarrollo de
-              APIs y el uso de GIT como software de control de versiones,
-              utilizando integraciones continuas para los despliegues.
+              Por necesidades de la empres amplio mi experiencia en React,
+              empezando a ayudar en varios proyectos de React y otros frameworks
+              JavaScript, como NextJS y 11ty(Eleventy). Además, adquiero
+              conocimientos en el desarrollo de APIs y el uso de GIT como
+              software de control de versiones.
             </p>
           </>
         )}

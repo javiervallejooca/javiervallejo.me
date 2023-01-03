@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+
 const Inicio = () => {
   console.log(
     "Gracias a todos las personas que me han enseñado y me han hecho convertirme en el trabajador que soy."
@@ -14,7 +15,7 @@ const Inicio = () => {
               <div className="h-32 w-32">
                 <img
                   src="https://javiervallejo.com/wp-content/uploads/2019/10/logo-bn.png"
-                  alt="Fotografía de Javier Vallejo"
+                  alt="Logo de Javier Vallejo"
                   className="rounded-full h-full w-full shadow-md"
                 />
               </div>

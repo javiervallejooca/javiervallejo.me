@@ -1,13 +1,73 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { useInterval } from "usehooks-ts";
 
 import Company from "../components/Company";
+import AboutMe from "../components/AboutMe";
+import Summary from "../components/Summary";
 
 const About = () => {
-  const fechaMercadoLaboral = 2015;
-  const workingSince = new Date().getFullYear() - fechaMercadoLaboral;
+  const fechaMercadoLaboral = 2015; // 12 de enero de 2015npm fund
+  const workingSince = new Date().getFullYear() - fechaMercadoLaboral; //in years
+
+  const [typeDate, setTypeDate] = useState("años");
+
+  const [delay, setDelay] = useState(1000);
+  const [isPlaying, setPlaying] = useState(false);
 
   const [date, setDate] = useState(workingSince);
+
+  useInterval(
+    () => {
+      setDate(date + 1);
+    },
+    isPlaying ? delay : null
+  );
+
+  const handleDate = () => {
+    switch (typeDate) {
+      case "años":
+        setDate(workingSince * 12);
+        setTypeDate("meses");
+        setPlaying(false);
+        break;
+      case "meses":
+        setDate(parseInt(date * 4.345));
+        setTypeDate("semanas");
+        setPlaying(false);
+        break;
+      case "semanas":
+        setDate(date * 7);
+        setTypeDate("días");
+        setPlaying(false);
+        break;
+      case "días":
+        setDate(date * 24);
+        setTypeDate("horas");
+        setPlaying(false);
+        break;
+      case "horas":
+        setDate(date * 60);
+        setTypeDate("minutos");
+        setPlaying(false);
+        break;
+      case "minutos":
+        setDate(date * 60);
+        setTypeDate("segundos");
+        setPlaying(true);
+        break;
+      case "segundos":
+        setDate(workingSince);
+        setTypeDate("años");
+        setPlaying(false);
+        break;
+      default:
+        setDate(workingSince);
+        setTypeDate("años");
+        setPlaying(false);
+        break;
+    }
+  };
 
   return (
     <div className="flex flex-col items-center justify-center pt-5 sm:pt-12 pb-8 font-poppins">
@@ -43,8 +103,12 @@ const About = () => {
         <div className="text-slate-400 mb-4">
           <p className="mb-4">
             Los últimos años de la carrera estudiaba y trabaja, es decir, llevo{" "}
-            <span className="bg-slate-400 text-slate-800 px-1">
-              trabajando de forma continua durante los últimos {date} años.
+            <span
+              onClick={handleDate}
+              className="bg-slate-400 text-slate-800 px-1 cursor-pointer"
+            >
+              trabajando de forma continua durante los últimos {date} {typeDate}
+              .
             </span>
           </p>
           <p className="mb-4">
@@ -82,7 +146,7 @@ const About = () => {
               name: "JavaScript",
             },
             {
-              name: "Tailwind",
+              name: "Tailwind CSS",
             },
             {
               name: "GIT",
@@ -133,33 +197,10 @@ const About = () => {
           ]}
         ></Company>
       </div>
-      <div className="w-5/6 sm:w-3/4 md:w-3/5 xl:max-w-5xl relative mb-4">
-        <div className="sticky top-0 right-0 py-4 px-4 text-slate-200 font-bold text-xl opacity-100 bg-slate-900 mb-4">
-          Sobre mí y perspectivas de aprendizaje
-        </div>
-        <div className="text-slate-400">
-          <p className="mb-4">
-            Laboralmente hablando, si tuviera que definirme con tres adjetivos
-            seleccionaría los siguientes:
-          </p>
-          <ul class="list-disc list-inside mb-4">
-            <li>Proactivo: Soy un culo inquieto...</li>
-            <li>Responsable: Me gusta que el trabajo salga perfecto.</li>
-            <li>
-              Versátil: Me amoldo a trabajar y aprender distintas tecnologías.
-            </li>
-          </ul>
-          <p className="mb-4">
-            Me sigo formando en mis ratos libres para obtener mayores
-            conocimientos y poder aplicarlos en mi día a día.
-          </p>
-          <p className="mb-4">
-            Actualmente, me encuentro realizando un proyecto con el stack de
-            MERN (MongoDB, Express, React y Node) con el que estoy aprendiendo
-            conocimientos de nuevos frameworks y metodologías de desarrollo.
-          </p>
-        </div>
-      </div>
+      <AboutMe />
+
+      <Summary />
+
       <Link
         to="/"
         className="text-slate-400 underline underline-offset-4 hover:text-slate-300"

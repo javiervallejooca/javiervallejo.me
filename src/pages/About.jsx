@@ -75,6 +75,7 @@ const About = () => {
         <div className="sticky top-0 right-0 py-4 px-4 text-slate-800 dark:text-slate-200 font-bold text-xl opacity-100 bg-slate-100 dark:bg-slate-900 mb-4">
           Formación
         </div>
+
         <div className="text-slate-600 dark:text-slate-400">
           <p className="mb-4">
             Ya desde pequeño me gustaban por los ordenadores y cacharreaba con

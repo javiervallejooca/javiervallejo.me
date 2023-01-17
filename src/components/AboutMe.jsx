@@ -1,15 +1,15 @@
 const AboutMe = () => {
   return (
     <div className="w-5/6 sm:w-3/4 md:w-3/5 xl:max-w-5xl relative mb-4">
-      <div className="sticky top-0 right-0 py-4 px-4 text-slate-200 font-bold text-xl opacity-100 bg-slate-900 mb-4">
+      <div className="sticky top-0 right-0 py-4 px-4 text-slate-700 dark:text-slate-200 font-bold text-xl opacity-100 bg-slate-100 dark:bg-slate-900 mb-4">
         Sobre mí y perspectivas de aprendizaje
       </div>
-      <div className="text-slate-400">
+      <div className="text-slate-600 dark:text-slate-400">
         <p className="mb-4">
           Laboralmente hablando, si tuviera que definirme con tres adjetivos
           seleccionaría los siguientes:
         </p>
-        <ul class="list-disc list-inside mb-4">
+        <ul className="list-disc list-inside mb-4">
           <li>
             <b>Proactivo:</b> Soy un culo inquieto...
           </li>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" class="dark">
   <head>
     <meta charset="UTF-8" />
     <link
@@ -8,7 +8,7 @@
       href="https://javiervallejo.com/wp-content/uploads/2019/10/logo-bn.png"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Javier Vallejo / Desarrollador web / PHP · JS · React</title>
+    <title>Javier Vallejo / Desarrollador web / React · JS · PHP</title>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Poppins"
@@ -19,6 +19,17 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;1,700&display=swap"
       rel="stylesheet"
     />
+    <script>
+      if (
+        localStorage.theme === "dark" ||
+        (!("theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>

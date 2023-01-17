@@ -53,17 +53,27 @@ const Company = ({
   }, []);
 
   return (
-    <div className="flex flex-col border border-slate-800 rounded p-4 bg-slate-800 shadow text-black mb-4">
+    <div className="flex flex-col border rounded p-4 shadow mb-4 border-slate-200 bg-slate-200 text-white dark:border-slate-800 dark:bg-slate-800  dark:text-black">
       <div className="flex flex-col sm:flex-row sm:justify-between">
         <div className="flex flex-col justify-center">
-          <div className="text-xl font-bold text-slate-200">{name}</div>
-          <div className="italic text-slate-500 text-sm">{job}</div>
+          <div className="text-xl font-bold text-slate-800 dark:text-slate-200">
+            {name}
+          </div>
+          <div className="italic text-slate-400 dark:text-slate-500 text-sm">
+            {job}
+          </div>
         </div>
-        <div className="py-1 sm:py-0 text-sm text-slate-500 flex flex-col justify-end">
+        <div className="py-1 sm:py-0 text-sm text-slate-500 dark:text-slate-500 flex flex-col justify-end">
           <div className="flex justify-start sm:justify-end mb-0 sm:mb-1">
-            <span className=" bg-slate-400 text-slate-700 px-2 py-1 rounded-full">
-              {years} {years === 1 ? "año" : "años"} , {months}{" "}
-              {months === 1 ? "mes" : "meses"}
+            <span className=" bg-slate-300 text-slate-700 dark:bg-slate-400 dark:text-slate-700 px-2 py-1 rounded-full">
+              {name === "iteisa" && console.log(years)}
+              {years > 0 && (
+                <>
+                  {years} {years === 1 ? "año" : "años"}
+                  {","}
+                </>
+              )}{" "}
+              {months} {months === 1 ? "mes" : "meses"}
             </span>
           </div>
           <div className="flex sm:justify-end pt-1 sm:pt-0">
@@ -73,7 +83,9 @@ const Company = ({
             -
             <div className="ml-1">
               {current ? (
-                <span className="font-bold text-slate-300">Actualmente</span>
+                <span className="font-bold text-slate-700 dark:text-slate-300">
+                  Actualmente
+                </span>
               ) : (
                 <>
                   {monthsNames[dateTo.getMonth()] + "/" + dateTo.getFullYear()}{" "}
@@ -83,7 +95,7 @@ const Company = ({
           </div>
         </div>
       </div>
-      <div className="text-slate-400 mt-4 mb-1">
+      <div className="text-slate-600 dark:text-slate-400 mt-4 mb-1">
         {company === "iteisa" && (
           <>
             <p className="mb-4">

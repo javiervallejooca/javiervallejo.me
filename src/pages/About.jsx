@@ -72,10 +72,10 @@ const About = () => {
   return (
     <div className="flex flex-col items-center justify-center pt-5 sm:pt-12 pb-8 font-poppins">
       <div className="w-5/6 sm:w-3/4 md:w-3/5 xl:max-w-5xl relative mb-4">
-        <div className="sticky top-0 right-0 py-4 px-4 text-slate-200 font-bold text-xl opacity-100 bg-slate-900 mb-4">
+        <div className="sticky top-0 right-0 py-4 px-4 text-slate-800 dark:text-slate-200 font-bold text-xl opacity-100 bg-slate-100 dark:bg-slate-900 mb-4">
           Formación
         </div>
-        <div className="text-slate-400">
+        <div className="text-slate-600 dark:text-slate-400">
           <p className="mb-4">
             Ya desde pequeño me gustaban por los ordenadores y cacharreaba con
             ellos.
@@ -83,7 +83,7 @@ const About = () => {
           <p className="mb-4">
             Tras finalizar el grado superior de desarrollo de aplicaciones
             informáticas, me animo a estudiar la carrera de{" "}
-            <span className="bg-slate-400 text-slate-800 px-1">
+            <span className="bg-slate-600 text-slate-200 dark:bg-slate-400 dark:text-slate-800 px-1">
               ingeniería informática
             </span>{" "}
             en la Universidad de Cantabria.{" "}
@@ -97,15 +97,15 @@ const About = () => {
         </div>
       </div>
       <div className="w-5/6 sm:w-3/4 md:w-3/5 xl:max-w-5xl relative mb-5">
-        <div className="sticky top-0 right-0 py-4 px-4 text-slate-200 font-bold text-xl opacity-100 bg-slate-900 mb-4">
+        <div className="sticky top-0 right-0 py-4 px-4 text-slate-800 dark:text-slate-200 font-bold text-xl opacity-100 bg-slate-100 dark:bg-slate-900 mb-4">
           Experiencia laboral
         </div>
-        <div className="text-slate-400 mb-4">
+        <div className="text-slate-600 dark:text-slate-400 mb-4">
           <p className="mb-4">
             Los últimos años de la carrera estudiaba y trabaja, es decir, llevo{" "}
             <span
               onClick={handleDate}
-              className="bg-slate-400 text-slate-800 px-1 cursor-pointer"
+              className="bg-slate-600 text-slate-200 dark:bg-slate-400 dark:text-slate-800 px-1 cursor-pointer"
             >
               trabajando de forma continua durante los últimos {date} {typeDate}
               .
@@ -116,13 +116,14 @@ const About = () => {
             he estado/estoy trabajando.
           </p>
         </div>
+
         <Company
           textDateFrom="2021-05-01"
           textDateTo={new Date()}
           name="ITEISA"
           job="Desarrollador de software"
           company="iteisa"
-          current="true"
+          current={true}
           technologies={[
             {
               name: "React",
@@ -203,7 +204,7 @@ const About = () => {
 
       <Link
         to="/"
-        className="text-slate-400 underline underline-offset-4 hover:text-slate-300"
+        className="text-slate-600 dark:text-slate-400 underline underline-offset-4 hover:text-slate-700 dark:hover:text-slate-300"
       >
         Volver atrás
       </Link>

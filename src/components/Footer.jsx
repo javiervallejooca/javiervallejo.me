@@ -4,8 +4,8 @@ import tailwind from "../img/tailwindcss.svg";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-center items-center py-2 font-Poppins text-slate-400 text-sm">
-      <div className="inline-flex items-center p-1 bg-slate-800 rounded">
+    <footer className="flex justify-center items-center py-2 font-Poppins text-slate-600 dark:text-slate-400 text-sm">
+      <div className="inline-flex items-center p-1 bg-slate-200 dark:bg-slate-800 rounded">
         Desarrollado con{" "}
         <img
           name="Vite"

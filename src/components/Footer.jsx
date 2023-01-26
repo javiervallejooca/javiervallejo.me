@@ -4,14 +4,14 @@ import tailwind from "../img/tailwindcss.svg";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-center items-center py-2 font-Poppins text-slate-600 dark:text-slate-400 text-sm">
-      <div className="inline-flex items-center p-1 bg-slate-200 dark:bg-slate-800 rounded">
+    <footer className="font-Poppins flex items-center justify-center py-2 text-sm text-slate-600 dark:text-slate-400">
+      <div className="inline-flex items-center rounded bg-slate-200 p-1 dark:bg-slate-800">
         Desarrollado con{" "}
         <img
           name="Vite"
           alt="Vite"
           title="Vite"
-          className="h-4 w-4 mx-1 "
+          className="mx-1 h-4 w-4 "
           src={vite}
         />{" "}
         +
@@ -19,7 +19,7 @@ const Footer = () => {
           name="React"
           alt="React"
           title="React"
-          className="h-4 w-4 mx-1 fill-white"
+          className="mx-1 h-4 w-4 fill-white"
           src={react}
         />
         +
@@ -27,7 +27,7 @@ const Footer = () => {
           name="Tailwind CSS"
           alt="Tailwind CSS"
           title="Tailwind CSS"
-          className="h-4 w-4 mx-1 fill-white"
+          className="mx-1 h-4 w-4 fill-white"
           src={tailwind}
         />
       </div>

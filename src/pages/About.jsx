@@ -70,9 +70,9 @@ const About = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center pt-5 sm:pt-12 pb-8 font-poppins">
-      <div className="w-5/6 sm:w-3/4 md:w-3/5 xl:max-w-5xl relative mb-4">
-        <div className="sticky top-0 right-0 py-4 px-4 text-slate-800 dark:text-slate-200 font-bold text-xl opacity-100 bg-slate-100 dark:bg-slate-900 mb-4">
+    <div className="flex flex-col items-center justify-center pt-5 pb-8 font-poppins sm:pt-12">
+      <div className="relative mb-4 w-5/6 sm:w-3/4 md:w-3/5 xl:max-w-5xl">
+        <div className="sticky top-0 right-0 mb-4 bg-slate-100 py-4 px-4 text-xl font-bold text-slate-800 opacity-100 dark:bg-slate-900 dark:text-slate-200">
           Formación
         </div>
 
@@ -84,7 +84,7 @@ const About = () => {
           <p className="mb-4">
             Tras finalizar el grado superior de desarrollo de aplicaciones
             informáticas, me animo a estudiar la carrera de{" "}
-            <span className="bg-slate-600 text-slate-200 dark:bg-slate-400 dark:text-slate-800 px-1">
+            <span className="bg-slate-600 px-1 text-slate-200 dark:bg-slate-400 dark:text-slate-800">
               ingeniería informática
             </span>{" "}
             en la Universidad de Cantabria.{" "}
@@ -97,16 +97,16 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="w-5/6 sm:w-3/4 md:w-3/5 xl:max-w-5xl relative mb-5">
-        <div className="sticky top-0 right-0 py-4 px-4 text-slate-800 dark:text-slate-200 font-bold text-xl opacity-100 bg-slate-100 dark:bg-slate-900 mb-4">
+      <div className="relative mb-5 w-5/6 sm:w-3/4 md:w-3/5 xl:max-w-5xl">
+        <div className="sticky top-0 right-0 mb-4 bg-slate-100 py-4 px-4 text-xl font-bold text-slate-800 opacity-100 dark:bg-slate-900 dark:text-slate-200">
           Experiencia laboral
         </div>
-        <div className="text-slate-600 dark:text-slate-400 mb-4">
+        <div className="mb-4 text-slate-600 dark:text-slate-400">
           <p className="mb-4">
             Los últimos años de la carrera estudiaba y trabaja, es decir, llevo{" "}
             <span
               onClick={handleDate}
-              className="bg-slate-600 text-slate-200 dark:bg-slate-400 dark:text-slate-800 px-1 cursor-pointer"
+              className="cursor-pointer bg-slate-600 px-1 text-slate-200 dark:bg-slate-400 dark:text-slate-800"
             >
               trabajando de forma continua durante los últimos {date} {typeDate}
               .
@@ -205,7 +205,7 @@ const About = () => {
 
       <Link
         to="/"
-        className="text-slate-600 dark:text-slate-400 underline underline-offset-4 hover:text-slate-700 dark:hover:text-slate-300"
+        className="text-slate-600 underline underline-offset-4 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-300"
       >
         Volver atrás
       </Link>

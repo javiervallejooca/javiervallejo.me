@@ -4,7 +4,7 @@
 
 Proyecto realizado en VITE con React y TailwindCSS
 
-## npm run start
+## npm run dev
 Iniciar el proyecto de VITE
 
 ## npm run build

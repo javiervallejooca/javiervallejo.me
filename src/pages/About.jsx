@@ -7,15 +7,14 @@ import AboutMe from "../components/AboutMe";
 import Summary from "../components/Summary";
 
 const About = () => {
-  const fechaMercadoLaboral = 2015; // 12 de enero de 2015npm fund
+  const fechaMercadoLaboral = 2015; // 12 de enero de 2015
   const workingSince = new Date().getFullYear() - fechaMercadoLaboral; //in years
 
   const [typeDate, setTypeDate] = useState("años");
-
-  const [delay, setDelay] = useState(1000);
   const [isPlaying, setPlaying] = useState(false);
-
   const [date, setDate] = useState(workingSince);
+
+  const delay = 1000;
 
   useInterval(
     () => {

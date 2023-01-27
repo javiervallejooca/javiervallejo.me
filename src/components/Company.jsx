@@ -10,10 +10,11 @@ const Company = ({
   technologies,
   current = false,
 }) => {
-  const [dateFrom, setDateFrom] = useState(new Date(textDateFrom));
-  const [dateTo, setDateTo] = useState(new Date(textDateTo));
   const [months, setMonths] = useState(0);
   const [years, setYears] = useState(0);
+
+  const dateFrom = new Date(textDateFrom);
+  const dateTo = new Date(textDateTo);
 
   const monthsNames = [
     "Enero",
@@ -53,19 +54,19 @@ const Company = ({
   }, []);
 
   return (
-    <div className="flex flex-col border rounded p-4 shadow mb-4 border-slate-200 bg-slate-200 text-white dark:border-slate-800 dark:bg-slate-800  dark:text-black">
+    <div className="mb-4 flex flex-col rounded border border-slate-200 bg-slate-200 p-4 text-white shadow dark:border-slate-800 dark:bg-slate-800  dark:text-black">
       <div className="flex flex-col sm:flex-row sm:justify-between">
         <div className="flex flex-col justify-center">
           <div className="text-xl font-bold text-slate-800 dark:text-slate-200">
             {name}
           </div>
-          <div className="italic text-slate-400 dark:text-slate-500 text-sm">
+          <div className="text-sm italic text-slate-400 dark:text-slate-500">
             {job}
           </div>
         </div>
-        <div className="py-1 sm:py-0 text-sm text-slate-500 dark:text-slate-500 flex flex-col justify-end">
-          <div className="flex justify-start sm:justify-end mb-0 sm:mb-1">
-            <span className=" bg-slate-300 text-slate-700 dark:bg-slate-400 dark:text-slate-700 px-2 py-1 rounded-full">
+        <div className="flex flex-col justify-end py-1 text-sm text-slate-500 dark:text-slate-500 sm:py-0">
+          <div className="mb-0 flex justify-start sm:mb-1 sm:justify-end">
+            <span className=" rounded-full bg-slate-300 px-2 py-1 text-slate-700 dark:bg-slate-400 dark:text-slate-700">
               {name === "iteisa" && console.log(years)}
               {years > 0 && (
                 <>
@@ -76,7 +77,7 @@ const Company = ({
               {months} {months === 1 ? "mes" : "meses"}
             </span>
           </div>
-          <div className="flex sm:justify-end pt-1 sm:pt-0">
+          <div className="flex pt-1 sm:justify-end sm:pt-0">
             <div className="mr-1">
               {monthsNames[dateFrom.getMonth()] + "/" + dateFrom.getFullYear()}
             </div>
@@ -95,7 +96,7 @@ const Company = ({
           </div>
         </div>
       </div>
-      <div className="text-slate-600 dark:text-slate-400 mt-4 mb-1">
+      <div className="mt-4 mb-1 text-slate-600 dark:text-slate-400">
         {company === "iteisa" && (
           <>
             <p className="mb-4">
@@ -172,7 +173,7 @@ const Company = ({
           </>
         )}
       </div>
-      <div className="flex flex-wrap mt-2">
+      <div className="mt-2 flex flex-wrap">
         {technologies.map((technology, i) => {
           return <Technology key={i} name={technology.name} />;
         })}

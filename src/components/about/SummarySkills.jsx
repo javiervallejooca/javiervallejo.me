@@ -8,9 +8,12 @@ const SummarySkills = () => {
       </div>
       <div className="text-slate-600 dark:text-slate-400">
         <p className="mb-4">
-          A lo largo de mi experiencia laboral he tocado varias tecnologías,
-          pero es un breve listado con las que más he estado trabajando junto a
-          un tiempo orientativo.
+          A lo largo de mi experiencia laboral he trabajado con varias
+          tecnologías.
+        </p>
+        <p className="mb-4">
+          Si tuviera que plantear un breve listado y un tiempo aprox. con cada
+          una de ellas, sería el siguiente:
         </p>
         <ul className="mb-4 list-inside list-disc">
           <li>

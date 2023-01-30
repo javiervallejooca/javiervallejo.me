@@ -12,14 +12,14 @@ const Zitelia = () => {
       </p>
       <p className="mb-4">
         Al tener soltura para hablar con clientes y darles, exitosamente, la
-        formación para que fueran capaces de autogestionar sus contenidos, me
-        empezaron a pasar labores como técnico comercial.
+        formación para la autogestión de contenidos, me empezaron a dar
+        responsabilidades como técnico comercial.
       </p>
       <p className="mb-4">
         Los trabajos consistían en la toma de requisitos, orientación a los
         clientes en sus proyectos, el propio desarrollo, la preparación de
-        documentación y formación para que el cliente aprendiera cómo manejar su
-        plataforma.
+        documentación y formación para que el cliente aprendiera y conociera
+        cómo manejar su plataforma.
       </p>
       <p className="mb-4">
         Por necesidades laborales, aprendí conocimientos de SEO para conseguir
@@ -28,8 +28,8 @@ const Zitelia = () => {
         primeras posiciones del mercado nacional.
       </p>
       <p className="mb-4">
-        En los últimos años, enfocan mis trabajos en el desarrollo de software a
-        medida, trabajando principalmente con PHP. Utilizando el framework
+        En los últimos 3/4 años, enfocan mis trabajos al desarrollo de software
+        a medida, trabajando principalmente con PHP. Utilizando el framework
         CodeIgniter a modo de sistema monolítico.
       </p>
     </div>

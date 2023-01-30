@@ -58,7 +58,7 @@ export const companiesWhereIWork = {
     name: "ITEISA",
     tecnologies: [
       "React",
-      "NextJs",
+      "Next.js",
       "11ty",
       "WordPress",
       "PrestaShop",

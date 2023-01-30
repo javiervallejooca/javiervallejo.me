@@ -32,24 +32,24 @@ const Company = ({
   ];
 
   useEffect(() => {
-    let misMeses =
+    let monthsWorked =
       dateTo.getMonth() -
       dateFrom.getMonth() +
       12 * (dateTo.getFullYear() - dateFrom.getFullYear());
 
     let i = 0;
 
-    while (misMeses > 12) {
-      misMeses = misMeses - 12;
+    while (monthsWorked > 12) {
+      monthsWorked = monthsWorked - 12;
       i++;
     }
 
-    if (misMeses === 12) {
+    if (monthsWorked === 12) {
       i++;
-      misMeses = 0;
+      monthsWorked = 0;
     }
 
-    setMonths(misMeses + 1);
+    setMonths(monthsWorked + 1);
     setYears(i);
   }, []);
 

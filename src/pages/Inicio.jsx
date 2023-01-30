@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import logo from "../img/logo-jv.webp";
 
 const Inicio = () => {
   useEffect(() => {
@@ -17,9 +18,11 @@ const Inicio = () => {
             <div className="absolute -mt-[70px] flex w-full justify-center">
               <div className="h-32 w-32">
                 <img
-                  src="https://javiervallejo.com/wp-content/uploads/2019/10/logo-bn.png"
+                  src={logo}
                   alt="Logo de Javier Vallejo"
                   className="h-full w-full rounded-full shadow-md"
+                  decoding="async"
+                  loading="lazy"
                 />
               </div>
             </div>

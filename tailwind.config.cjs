@@ -2,11 +2,11 @@
 module.exports = {
   content: ["index.html", "./src/**/*.jsx"],
   theme: {
-    fontFamily: {
-      poppins: ["Poppins", "sans-serif"],
-      dmsans: ["DM Sans", "sans-serif"],
-    },
     extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        dmsans: ["DM Sans", "sans-serif"],
+      },
       margin: {
         "70px": "70px",
       },
@@ -15,9 +15,3 @@ module.exports = {
   plugins: [],
   darkMode: "class",
 };
-
-/*
-theme: {
-  extend: {},
-},
-*/

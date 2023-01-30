@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MyLayoutWithoutHeader from "./layouts/MyLayoutWithoutHeader";
 
-import Inicio from "./pages/Inicio";
 import About from "./pages/About";
+import Home from "./pages/Home";
 import PageNotFound from "./pages/PageNotFound";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<MyLayoutWithoutHeader />}>
-          <Route index element={<Inicio />}></Route>
+          <Route index element={<Home />}></Route>
           <Route path="sobre-mi" element={<About />}></Route>
           <Route path="*" element={<PageNotFound />} />
         </Route>

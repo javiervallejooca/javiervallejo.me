@@ -1,6 +1,6 @@
 import React from "react";
 
-const Summary = () => {
+const SummarySkills = () => {
   return (
     <div className="relative mb-4 w-5/6 sm:w-3/4 md:w-3/5 xl:max-w-5xl">
       <div className="sticky top-0 right-0 mb-4 bg-slate-100 py-4 px-4 text-xl font-bold text-slate-800 opacity-100 dark:bg-slate-900 dark:text-slate-200">
@@ -34,4 +34,4 @@ const Summary = () => {
   );
 };
 
-export default Summary;
+export default SummarySkills;

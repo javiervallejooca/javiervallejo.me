@@ -75,7 +75,11 @@ const WorkingExperience = () => {
       </div>
       <div className="mb-4 text-slate-600 dark:text-slate-400">
         <p className="mb-4">
-          Los últimos años de la carrera estudiaba y trabaja, es decir, llevo{" "}
+          Durante los últimos 2 años de la carrera he estado compaginando
+          estudios y trabajo.
+        </p>
+        <p className="mb-4">
+          Es decir, llevo{" "}
           <span
             onClick={handleDate}
             className="cursor-pointer bg-slate-600 px-1 text-slate-200 dark:bg-slate-400 dark:text-slate-800"

@@ -69,4 +69,13 @@ export const companiesWhereIWork = {
       "GIT",
     ],
   },
+  lis: {
+    companyAsKey: "lis",
+    dateFrom: "2023-02-06",
+    dateTo: new Date(),
+    current: true,
+    job: "Desarrollador frontend",
+    name: "LIS Data Solutions",
+    tecnologies: ["React", "Next.js", "GIT", "JavaScript", "Boostrap"],
+  },
 };

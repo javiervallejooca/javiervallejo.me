@@ -94,6 +94,16 @@ const WorkingExperience = () => {
       </div>
 
       <Company
+        companyAsKey={companiesWhereIWork.lis.companyAsKey}
+        current={companiesWhereIWork.lis.current}
+        dateFrom={companiesWhereIWork.lis.dateFrom}
+        dateTo={companiesWhereIWork.lis.dateTo}
+        job={companiesWhereIWork.lis.job}
+        name={companiesWhereIWork.lis.name}
+        technologies={companiesWhereIWork.lis.tecnologies}
+      ></Company>
+
+      <Company
         companyAsKey={companiesWhereIWork.iteisa.companyAsKey}
         current={companiesWhereIWork.iteisa.current}
         dateFrom={companiesWhereIWork.iteisa.dateFrom}

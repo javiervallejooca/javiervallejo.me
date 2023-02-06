@@ -22,17 +22,15 @@ const Summary = () => {
               Javier Vallejo
             </h1>
             <p className=" text-center font-poppins text-sm text-slate-700 dark:text-slate-300">
-              Desarrollador de software{" "}
-              {/*}
-            <a
-              className="font-bold text-pink-500 hover:text-pink-400 hover:decoration-pink-400"
-              target="_blank"
-              rel="noopeneer noreferrer"
-              href="#"
-            >
-              #
-            </a>
-            */}
+              Desarrollador de software en{" "}
+              <a
+                className="font-bold text-sky-500 hover:text-sky-400 hover:decoration-sky-400"
+                target="_blank"
+                rel="noopeneer noreferrer"
+                href="#"
+              >
+                LIS Data Solutions
+              </a>
             </p>
 
             <p className="pt-3 pb-6 text-center font-poppins font-normal text-slate-500 dark:text-slate-400">

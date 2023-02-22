@@ -162,7 +162,6 @@ export const optionsForChart = {
   },
   tooltip: {
     custom: function (opts) {
-      console.log(opts);
       const fromYear = new Date(opts.y1).getFullYear();
       const toYear = new Date(opts.y2).getFullYear();
 

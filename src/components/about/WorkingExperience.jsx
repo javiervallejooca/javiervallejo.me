@@ -50,16 +50,6 @@ const WorkingExperience = () => {
         setTypeDate(countTimeBy.minutes);
         setPlaying(false);
         break;
-      case countTimeBy.minutes:
-        setDate(date * 60);
-        setTypeDate(countTimeBy.seconds);
-        setPlaying(true);
-        break;
-      case countTimeBy.seconds:
-        setDate(workingSince);
-        setTypeDate(countTimeBy.years);
-        setPlaying(false);
-        break;
       default:
         setDate(workingSince);
         setTypeDate(countTimeBy.years);
@@ -75,8 +65,8 @@ const WorkingExperience = () => {
       </div>
       <div className="mb-4 text-slate-600 dark:text-slate-400">
         <p className="mb-4">
-          Durante los últimos 2 años de la carrera he estado compaginando
-          estudios y trabajo.
+          Durante los últimos 2 años de la carrera estuve compaginando estudios
+          y trabajo.
         </p>
         <p className="mb-4">
           Es decir, llevo{" "}

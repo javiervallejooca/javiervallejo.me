@@ -3,14 +3,14 @@ import { useInterval } from "usehooks-ts";
 import Company from "../companies/Company";
 
 import {
-  companiesWhereIWork,
-  countTimeBy,
-  whenStartedToWork,
+  COMPANIES_WHERE_I_WORK,
+  COUNT_TIME_BY,
+  WHEN_STARTED_TO_WORK,
 } from "../../global";
 
 const WorkingExperience = () => {
-  const workingSince = new Date().getFullYear() - whenStartedToWork; //in years
-  const [typeDate, setTypeDate] = useState(countTimeBy.years);
+  const workingSince = new Date().getFullYear() - WHEN_STARTED_TO_WORK; //in years
+  const [typeDate, setTypeDate] = useState(COUNT_TIME_BY.years);
   const [isPlaying, setPlaying] = useState(false);
   const [date, setDate] = useState(workingSince);
 
@@ -25,34 +25,34 @@ const WorkingExperience = () => {
 
   const handleDate = () => {
     switch (typeDate) {
-      case countTimeBy.years:
+      case COUNT_TIME_BY.years:
         setDate(workingSince * 12);
-        setTypeDate(countTimeBy.months);
+        setTypeDate(COUNT_TIME_BY.months);
         setPlaying(false);
         break;
-      case countTimeBy.months:
+      case COUNT_TIME_BY.months:
         setDate(parseInt(date * 4.345));
-        setTypeDate(countTimeBy.weeks);
+        setTypeDate(COUNT_TIME_BY.weeks);
         setPlaying(false);
         break;
-      case countTimeBy.weeks:
+      case COUNT_TIME_BY.weeks:
         setDate(date * 7);
-        setTypeDate(countTimeBy.days);
+        setTypeDate(COUNT_TIME_BY.days);
         setPlaying(false);
         break;
-      case countTimeBy.days:
+      case COUNT_TIME_BY.days:
         setDate(date * 24);
-        setTypeDate(countTimeBy.hours);
+        setTypeDate(COUNT_TIME_BY.hours);
         setPlaying(false);
         break;
-      case countTimeBy.hours:
+      case COUNT_TIME_BY.hours:
         setDate(date * 60);
-        setTypeDate(countTimeBy.minutes);
+        setTypeDate(COUNT_TIME_BY.minutes);
         setPlaying(false);
         break;
       default:
         setDate(workingSince);
-        setTypeDate(countTimeBy.years);
+        setTypeDate(COUNT_TIME_BY.years);
         setPlaying(false);
         break;
     }
@@ -85,33 +85,33 @@ const WorkingExperience = () => {
       </div>
 
       <Company
-        companyAsKey={companiesWhereIWork.lis.companyAsKey}
-        current={companiesWhereIWork.lis.current}
-        dateFrom={companiesWhereIWork.lis.dateFrom}
-        dateTo={companiesWhereIWork.lis.dateTo}
-        job={companiesWhereIWork.lis.job}
-        name={companiesWhereIWork.lis.name}
-        technologies={companiesWhereIWork.lis.tecnologies}
+        companyAsKey={COMPANIES_WHERE_I_WORK.lis.companyAsKey}
+        current={COMPANIES_WHERE_I_WORK.lis.current}
+        dateFrom={COMPANIES_WHERE_I_WORK.lis.dateFrom}
+        dateTo={COMPANIES_WHERE_I_WORK.lis.dateTo}
+        job={COMPANIES_WHERE_I_WORK.lis.job}
+        name={COMPANIES_WHERE_I_WORK.lis.name}
+        technologies={COMPANIES_WHERE_I_WORK.lis.tecnologies}
       ></Company>
 
       <Company
-        companyAsKey={companiesWhereIWork.iteisa.companyAsKey}
-        current={companiesWhereIWork.iteisa.current}
-        dateFrom={companiesWhereIWork.iteisa.dateFrom}
-        dateTo={companiesWhereIWork.iteisa.dateTo}
-        job={companiesWhereIWork.iteisa.job}
-        name={companiesWhereIWork.iteisa.name}
-        technologies={companiesWhereIWork.iteisa.tecnologies}
+        companyAsKey={COMPANIES_WHERE_I_WORK.iteisa.companyAsKey}
+        current={COMPANIES_WHERE_I_WORK.iteisa.current}
+        dateFrom={COMPANIES_WHERE_I_WORK.iteisa.dateFrom}
+        dateTo={COMPANIES_WHERE_I_WORK.iteisa.dateTo}
+        job={COMPANIES_WHERE_I_WORK.iteisa.job}
+        name={COMPANIES_WHERE_I_WORK.iteisa.name}
+        technologies={COMPANIES_WHERE_I_WORK.iteisa.tecnologies}
       ></Company>
 
       <Company
-        companyAsKey={companiesWhereIWork.zitelia.companyAsKey}
-        current={companiesWhereIWork.zitelia.current}
-        dateFrom={companiesWhereIWork.zitelia.dateFrom}
-        dateTo={companiesWhereIWork.zitelia.dateTo}
-        job={companiesWhereIWork.zitelia.job}
-        name={companiesWhereIWork.zitelia.name}
-        technologies={companiesWhereIWork.zitelia.tecnologies}
+        companyAsKey={COMPANIES_WHERE_I_WORK.zitelia.companyAsKey}
+        current={COMPANIES_WHERE_I_WORK.zitelia.current}
+        dateFrom={COMPANIES_WHERE_I_WORK.zitelia.dateFrom}
+        dateTo={COMPANIES_WHERE_I_WORK.zitelia.dateTo}
+        job={COMPANIES_WHERE_I_WORK.zitelia.job}
+        name={COMPANIES_WHERE_I_WORK.zitelia.name}
+        technologies={COMPANIES_WHERE_I_WORK.zitelia.tecnologies}
       ></Company>
     </div>
   );

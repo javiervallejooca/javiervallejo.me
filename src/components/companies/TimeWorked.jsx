@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { monthsNames } from "../../global";
+import { MONTHS_NAMES } from "../../global";
 
 const TimeWorked = ({ textDateFrom, textDateTo, current }) => {
   const [months, setMonths] = useState(0);
@@ -45,7 +45,7 @@ const TimeWorked = ({ textDateFrom, textDateTo, current }) => {
       </div>
       <div className="flex pt-1 sm:justify-end sm:pt-0">
         <div className="mr-1">
-          {monthsNames[dateFrom.getMonth()] + "/" + dateFrom.getFullYear()}
+          {MONTHS_NAMES[dateFrom.getMonth()] + "/" + dateFrom.getFullYear()}
         </div>
         -
         <div className="ml-1">
@@ -54,7 +54,7 @@ const TimeWorked = ({ textDateFrom, textDateTo, current }) => {
               Actualmente
             </span>
           ) : (
-            <>{monthsNames[dateTo.getMonth()] + "/" + dateTo.getFullYear()} </>
+            <>{MONTHS_NAMES[dateTo.getMonth()] + "/" + dateTo.getFullYear()} </>
           )}
         </div>
       </div>

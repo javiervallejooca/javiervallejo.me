@@ -4,7 +4,7 @@ import Technologies from "./Technologies";
 import TimeWorked from "./TimeWorked";
 import Zitelia from "./descriptionCompanies/Zitelia";
 
-import { companiesWhereIWork } from "../../global.js";
+import { COMPANIES_WHERE_I_WORK } from "../../global.js";
 
 const Company = ({
   companyAsKey,
@@ -33,9 +33,11 @@ const Company = ({
         />
       </div>
       <div className="mt-4 mb-1 text-slate-600 dark:text-slate-400">
-        {companyAsKey === companiesWhereIWork.lis.companyAsKey && <Lis />}
-        {companyAsKey === companiesWhereIWork.iteisa.companyAsKey && <Iteisa />}
-        {companyAsKey === companiesWhereIWork.zitelia.companyAsKey && (
+        {companyAsKey === COMPANIES_WHERE_I_WORK.lis.companyAsKey && <Lis />}
+        {companyAsKey === COMPANIES_WHERE_I_WORK.iteisa.companyAsKey && (
+          <Iteisa />
+        )}
+        {companyAsKey === COMPANIES_WHERE_I_WORK.zitelia.companyAsKey && (
           <Zitelia />
         )}
       </div>

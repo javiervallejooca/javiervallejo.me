@@ -1,10 +1,10 @@
 import { convertMomentToDate } from "./helper";
 
 // 12 de enero de 2015.
-export const whenStartedToWork = 2015;
+export const WHEN_STARTED_TO_WORK = 2015;
 
 // Usado para contar el tiempo en activo.
-export const countTimeBy = {
+export const COUNT_TIME_BY = {
   years: "años",
   months: "meses",
   weeks: "semanas",
@@ -14,7 +14,7 @@ export const countTimeBy = {
   seconds: "segundos",
 };
 
-export const monthsNames = [
+export const MONTHS_NAMES = [
   "Enero",
   "Febrero",
   "Marzo",
@@ -29,7 +29,7 @@ export const monthsNames = [
   "Diciembre",
 ];
 
-export const companiesWhereIWork = {
+export const COMPANIES_WHERE_I_WORK = {
   zitelia: {
     companyAsKey: "zitelia",
     dateFrom: "2015-01-21",
@@ -85,42 +85,42 @@ export const companiesWhereIWork = {
   },
 };
 
-export const seriesForChart = [
+export const SERIES_FOR_CHART = [
   // Zitelia
   {
-    name: companiesWhereIWork.zitelia.name,
+    name: COMPANIES_WHERE_I_WORK.zitelia.name,
     data: [
       {
         x: "💻",
         y: [
-          convertMomentToDate(companiesWhereIWork.zitelia.dateFrom),
-          convertMomentToDate(companiesWhereIWork.zitelia.dateTo),
+          convertMomentToDate(COMPANIES_WHERE_I_WORK.zitelia.dateFrom),
+          convertMomentToDate(COMPANIES_WHERE_I_WORK.zitelia.dateTo),
         ],
       },
     ],
   },
   // ITEISA
   {
-    name: companiesWhereIWork.iteisa.name,
+    name: COMPANIES_WHERE_I_WORK.iteisa.name,
     data: [
       {
         x: "💻",
         y: [
-          convertMomentToDate(companiesWhereIWork.iteisa.dateFrom),
-          convertMomentToDate(companiesWhereIWork.iteisa.dateTo),
+          convertMomentToDate(COMPANIES_WHERE_I_WORK.iteisa.dateFrom),
+          convertMomentToDate(COMPANIES_WHERE_I_WORK.iteisa.dateTo),
         ],
       },
     ],
   },
   // LIS Data Solutions
   {
-    name: companiesWhereIWork.lis.name,
+    name: COMPANIES_WHERE_I_WORK.lis.name,
     data: [
       {
         x: "💻",
         y: [
-          convertMomentToDate(companiesWhereIWork.lis.dateFrom),
-          convertMomentToDate(companiesWhereIWork.lis.dateTo),
+          convertMomentToDate(COMPANIES_WHERE_I_WORK.lis.dateFrom),
+          convertMomentToDate(COMPANIES_WHERE_I_WORK.lis.dateTo),
         ],
       },
     ],
@@ -147,9 +147,9 @@ export const optionsForChart = {
     },
   },
   colors: [
-    companiesWhereIWork.zitelia.color.toString(),
-    companiesWhereIWork.iteisa.color.toString(),
-    companiesWhereIWork.lis.color.toString(),
+    COMPANIES_WHERE_I_WORK.zitelia.color.toString(),
+    COMPANIES_WHERE_I_WORK.iteisa.color.toString(),
+    COMPANIES_WHERE_I_WORK.lis.color.toString(),
   ],
   fill: {
     type: "solid",

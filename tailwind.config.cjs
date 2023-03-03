@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
-        dmsans: ["DM Sans", "sans-serif"],
+        poppins: ["Poppins", ...defaultTheme.fontFamily.sans],
+        dmsans: ["DM Sans", ...defaultTheme.fontFamily.sans],
       },
       margin: {
         "70px": "70px",

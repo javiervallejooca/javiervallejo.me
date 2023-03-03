@@ -1,9 +1,9 @@
 import { useState } from "react";
 import ReactApexChart from "react-apexcharts";
 import {
-  seriesForChart,
+  SERIES_FOR_CHART,
   optionsForChart,
-  whenStartedToWork,
+  WHEN_STARTED_TO_WORK,
 } from "../../global";
 import { getDaysWorked } from "../../helper";
 import { useInterval } from "usehooks-ts";
@@ -21,11 +21,11 @@ const Chart = () => {
         <p>
           En esta gráfica puedes ver, de forma dividida por empresas, mis{" "}
           {seconds} segundos en activo desde que me inicié laboralmente como
-          desarrollador en el año {whenStartedToWork}.
+          desarrollador en el año {WHEN_STARTED_TO_WORK}.
         </p>
         <ReactApexChart
           options={optionsForChart}
-          series={seriesForChart}
+          series={SERIES_FOR_CHART}
           type="rangeBar"
           height={350}
         />

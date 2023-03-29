@@ -69,13 +69,13 @@ const WorkingExperience = () => {
           y trabajo.
         </p>
         <p className="mb-4">
-          Es decir, llevo{" "}
+          Es decir,{" "}
           <span
             onClick={handleDate}
             className="cursor-pointer bg-slate-600 px-1 text-slate-200 dark:bg-slate-400 dark:text-slate-800"
           >
-            desarrollando software de forma continua durante los últimos {date}{" "}
-            {typeDate}.
+            desde el 2015 estoy desarrollando software, esto es un total de{" "}
+            {date} {typeDate}.
           </span>
         </p>
         <p className="mb-4">

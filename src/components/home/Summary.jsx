@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 import logo from "../../img/logo-jv.webp";
-import "./styles/Summary.css";
 
 const Summary = () => {
   return (
-    <div className="custom-h-screen flex items-center justify-center">
+    <div
+      style={{ height: "calc(100vh - 44px)" }}
+      className="custom-h-screen flex items-center justify-center"
+    >
       <div className="relative w-5/6 pt-3 sm:w-3/4 md:w-2/5 lg:w-2/5 xl:w-1/3 xl:max-w-sm">
         <div className="overflow-hidden rounded bg-slate-100 shadow-md dark:bg-slate-900">
           <div className="absolute -mt-[70px] flex w-full justify-center">
@@ -34,7 +36,7 @@ const Summary = () => {
               </a>
             </p>
 
-            <p className="pt-3 pb-6 text-center font-poppins font-normal text-slate-500 dark:text-slate-400">
+            <p className="pb-6 pt-3 text-center font-poppins font-normal text-slate-500 dark:text-slate-400">
               React<br></br>JavaScript<br></br>PHP<br></br>WordPress
               <br></br>PrestaShop<br></br> SEO
             </p>

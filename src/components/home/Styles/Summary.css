@@ -1,4 +1,0 @@
-/* Solución al issue 17: Scroll vertical innecesario en la portada #17 */
-.custom-h-screen {
-  height: calc(100vh - 44px);
-}

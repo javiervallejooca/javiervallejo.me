@@ -82,14 +82,14 @@ export const COMPANIES_WHERE_I_WORK = {
     color: "#00b1e2",
     tecnologies: [
       "React",
+      "Redux",
+      "Zustand",
       "NextJS",
       "GIT",
       "JavaScript",
       "Bootstrap",
       "Tailwind",
-      "Prime React",
-      "Materil UI",
-      "Formik",
+      "Python",
     ],
   },
 };

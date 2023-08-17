@@ -1,7 +1,7 @@
 const AboutMe = () => {
   return (
     <div className="relative mb-4 w-5/6 sm:w-3/4 md:w-3/5 xl:max-w-5xl">
-      <div className="sticky top-0 right-0 mb-4 bg-slate-100 py-4 px-4 text-xl font-bold text-slate-700 opacity-100 dark:bg-slate-900 dark:text-slate-200">
+      <div className="sticky right-0 top-0 mb-4 bg-slate-100 px-4 py-4 text-xl font-bold text-slate-700 opacity-100 dark:bg-slate-900 dark:text-slate-200">
         Sobre mí y perspectivas de aprendizaje
       </div>
       <div className="text-slate-600 dark:text-slate-400">
@@ -28,8 +28,8 @@ const AboutMe = () => {
         </p>
         <p className="mb-4">
           Actualmente, me encuentro realizando un proyecto con el stack de MERN
-          (MongoDB, Express, React y Node) con el que estoy aprendiendo
-          conocimientos de nuevos frameworks y metodologías de desarrollo.
+          (MongoDB, Express, React y Node) con el que estoy aprendiendo backend
+          con la idea de "poder ser" un desarrollador fullstack.
         </p>
       </div>
     </div>

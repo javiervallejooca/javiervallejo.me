@@ -77,7 +77,7 @@ export const COMPANIES_WHERE_I_WORK = {
     dateFrom: "2023-02-06",
     dateTo: new Date(),
     current: true,
-    job: "Desarrollador frontend al 99% y backend a ratos libres",
+    job: "Desarrollador frontend",
     name: "LIS Data Solutions",
     color: "#00b1e2",
     tecnologies: [

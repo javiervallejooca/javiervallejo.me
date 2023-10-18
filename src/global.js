@@ -84,7 +84,7 @@ export const COMPANIES_WHERE_I_WORK = {
       "React",
       "Redux",
       "Zustand",
-      "NextJS",
+      "NextJs",
       "GIT",
       "JavaScript",
       "TypeScript",

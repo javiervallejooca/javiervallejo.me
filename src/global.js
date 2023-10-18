@@ -87,6 +87,7 @@ export const COMPANIES_WHERE_I_WORK = {
       "NextJS",
       "GIT",
       "JavaScript",
+      "TypeScript",
       "Bootstrap",
       "Tailwind",
       "Python",

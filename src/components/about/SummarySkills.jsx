@@ -20,10 +20,10 @@ const SummarySkills = () => {
             <b>PHP</b> ~ 4/5 años
           </li>
           <li>
-            <b>JavaScript</b> ~ 2 años
+            <b>JavaScript</b> ~ 3 años
           </li>
           <li>
-            <b>React</b> ~ 1,5 años
+            <b>React</b> ~ 2 años
           </li>
           <li>
             <b>C#</b> ~ 1,5 años

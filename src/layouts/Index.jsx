@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 import DarkMode from "../components/DarkMode";
 import Footer from "../components/Footer";
 
-const MyLayoutWithoutHeader = () => {
+const Index = () => {
   const [darkToggle, setDarkToggle] = useState(false);
 
   useEffect(() => {
@@ -23,4 +23,4 @@ const MyLayoutWithoutHeader = () => {
   );
 };
 
-export default MyLayoutWithoutHeader;
+export default Index;

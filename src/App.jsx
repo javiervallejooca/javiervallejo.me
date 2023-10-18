@@ -1,6 +1,6 @@
 import { Suspense, lazy } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./layouts/MyLayoutWithoutHeader";
+import Index from "./layouts/Index";
 
 const About = lazy(() => import("./pages/About"));
 const Home = lazy(() => import("./pages/Home"));

@@ -1,0 +1,43 @@
+{
+  "E": "e",
+
+  "F": "f",
+  "training_and_beginnings": "Training and beginnings",
+
+  "S": "s",
+  "about_me_and_learning_perspectives": "About me and learning perspectives",
+
+  "R": "r",
+  "summary_of_my_skills_or_experience": "Summary of my skills or experience",
+
+  "V": "v",
+  "back_to_home": "Back to home",
+
+  "Y": "y",
+  "years": "years",
+
+  "W": "w",
+  "work_experience": "Work experience",
+
+  "throughout_my_work_experience": "Throughout my work experience, I have worked with various technologies.",
+  "technology_list": "If I had to create a brief list and an approximate time for each of them, it would be as follows:",
+  "graph_info": "In this graph, you can see, divided by companies, my {{seconds}} seconds in active since I started my career as a developer in {{year}}.",
+
+  "january": "January",
+  "february": "February",
+  "march": "March",
+  "april": "April",
+  "may": "May",
+  "june": "June",
+  "july": "July",
+  "august": "August",
+  "september": "September",
+  "october": "October",
+  "november": "November",
+  "december": "December",
+
+  "year": "year",
+  "months": "months",
+  "month": "month",
+  "currently": "Currently"
+}

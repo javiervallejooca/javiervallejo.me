@@ -1,7 +1,11 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+
 import logo from "../../img/logo-jv.webp";
 
 const Summary = () => {
+  const { t } = useTranslation();
+
   return (
     <div
       style={{ height: "calc(100vh - 44px)" }}
@@ -25,7 +29,7 @@ const Summary = () => {
               Javier Vallejo
             </h1>
             <p className=" text-center font-poppins text-sm text-slate-700 dark:text-slate-300">
-              Desarrollador frontend en{" "}
+              {t("frontend_developer_in")}{" "}
               <a
                 className="font-bold text-sky-500 hover:text-sky-400 hover:decoration-sky-400"
                 target="_blank"
@@ -47,7 +51,7 @@ const Summary = () => {
                       dark:border-slate-400 dark:bg-slate-900 dark:text-slate-400  dark:hover:border-slate-900 dark:hover:bg-slate-300 dark:hover:text-slate-900`}
               to="/sobre-mi"
             >
-              Ver más información
+              {t("view_more_information")}
             </Link>
           </div>
         </div>

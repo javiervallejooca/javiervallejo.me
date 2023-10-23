@@ -1,5 +1,8 @@
+import { useTranslation } from "react-i18next";
 import { useState } from "react";
+
 import { useInterval } from "usehooks-ts";
+
 import Company from "../companies/Company";
 
 import {
@@ -9,6 +12,8 @@ import {
 } from "../../global";
 
 const WorkingExperience = () => {
+  const { t } = useTranslation();
+
   const workingSince = new Date().getFullYear() - WHEN_STARTED_TO_WORK; //in years
   const [typeDate, setTypeDate] = useState(COUNT_TIME_BY.years);
   const [isPlaying, setPlaying] = useState(false);
@@ -60,8 +65,8 @@ const WorkingExperience = () => {
 
   return (
     <div className="relative mb-5 w-5/6 sm:w-3/4 md:w-3/5 xl:max-w-5xl">
-      <div className="sticky top-0 right-0 mb-4 bg-slate-100 py-4 px-4 text-xl font-bold text-slate-800 opacity-100 dark:bg-slate-900 dark:text-slate-200">
-        Experiencia laboral
+      <div className="sticky right-0 top-0 mb-4 bg-slate-100 px-4 py-4 text-xl font-bold text-slate-800 opacity-100 dark:bg-slate-900 dark:text-slate-200">
+        {t("work_experience")}
       </div>
       <div className="mb-4 text-slate-600 dark:text-slate-400">
         <p className="mb-4">

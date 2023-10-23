@@ -1,0 +1,41 @@
+{
+  "E": "e",
+  "work_experience": "Experiencia laboral",
+
+  "f": "f",
+  "training_and_beginnings": "Formación e inicios",
+
+  "S": "s",
+  "about_me_and_learning_perspectives": "Sobre mí y perspectivas de aprendizaje",
+
+  "R": "r",
+  "summary_of_my_skills_or_experience": "Resumen sobre mis habilidades o experiencia",
+
+  "V": "v",
+  "back_to_home": "Volver al inicio",
+
+  "Y": "y",
+  "years": "años",
+
+  "throughout_my_work_experience": "A lo largo de mi experiencia laboral he trabajado con varias tecnologías.",
+  "technology_list": "Si tuviera que plantear un breve listado y un tiempo aprox. con cada una de ellas, sería el siguiente:",
+  "graph_info": "En esta gráfica puedes ver, de forma dividida por empresas, mis {{seconds}} segundos en activo desde que me inicié laboralmente como desarrollador en el año {{year}}.",
+
+  "january": "Enero",
+  "february": "Febrero",
+  "march": "Marzo",
+  "april": "Abril",
+  "may": "Mayo",
+  "june": "Junio",
+  "july": "Julio",
+  "august": "Agosto",
+  "september": "Septiembre",
+  "october": "Octubre",
+  "november": "Noviembre",
+  "december": "Diciembre",
+
+  "year": "año",
+  "months": "meses",
+  "month": "mes",
+  "currently": "Actualmente"
+}

@@ -39,5 +39,10 @@
   "year": "year",
   "months": "months",
   "month": "month",
-  "currently": "Currently"
+  "currently": "Currently",
+
+  "since_i_was_a_child_i_liked_computers_and_tinkered_with_them": "Ya desde pequeño me gustaban los ordenadores y cacharreaba con ellos, esto fue el principal motivo de estudiar informática.",
+  "after_completing_the_higher_degree_in_computer_application_development": "Tras finalizar el grado superior de desarrollo de aplicaciones informáticas, me animo junto a unos amigos a estudiar la carrera de <span class='bg-slate-600 px-1 text-slate-200 dark:bg-slate-400 dark:text-slate-800'>ingeniería informática</span> en la Universidad de Cantabria, comenzando la carrera en el 2009.",
+  "in_2015_i_pass_all_the_subjects_and_start_working_at_zitelia_combining_work_in_the_company_with_the_completion_of_the_tfc_end_of_degree_project": "En el <b>año 2015 apruebo todas las asignaturas</b> y comienzo a trabajar en Zitelia, compaginando el trabajo en la empresa con la realización del TFC (trabajo de fin de carrera).",
+  "in_2017_i_present_the_tfc_and_immerse_myself_completely_in_the_working_world": "En el <b>año 2017 presento el TFC</b> y me adentro completamente en el mundo laboral."
 }

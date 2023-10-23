@@ -18,7 +18,7 @@ function LanguageSelector() {
         <div className="flex justify-end rounded-full bg-slate-600 p-1 text-blue-800 dark:bg-slate-200 dark:text-slate-600">
           {i18n.resolvedLanguage === "es" ? (
             <div
-              className="h-8 w-8 overflow-hidden rounded-full hover:cursor-pointer"
+              className="h-8 w-8 overflow-hidden rounded-full transition hover:rotate-12 hover:cursor-pointer"
               onClick={() => {
                 changeLanguage("en");
               }}
@@ -31,7 +31,7 @@ function LanguageSelector() {
             </div>
           ) : (
             <div
-              className="h-8 w-8  overflow-hidden rounded-full hover:cursor-pointer"
+              className="h-8 w-8 overflow-hidden rounded-full transition hover:rotate-12 hover:cursor-pointer"
               onClick={() => {
                 changeLanguage("es");
               }}

@@ -1,4 +1,4 @@
-import { useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 
 const Studies = () => {
   const { t } = useTranslation();
@@ -11,26 +11,25 @@ const Studies = () => {
 
       <div className="text-slate-600 dark:text-slate-400">
         <p className="mb-4">
-          Ya desde pequeño me gustaban los ordenadores y cacharreaba con ellos,
-          esto fue el principal motivo de estudiar informática.
+          {t("since_i_was_a_child_i_liked_computers_and_tinkered_with_them")}
         </p>
         <p className="mb-4">
-          Tras finalizar el grado superior de desarrollo de aplicaciones
-          informáticas, me animo junto a unos amigos a estudiar la carrera de{" "}
-          <span className="bg-slate-600 px-1 text-slate-200 dark:bg-slate-400 dark:text-slate-800">
-            ingeniería informática
-          </span>{" "}
-          en la Universidad de Cantabria,{" "}
-          <strong>comenzando la carrera en el 2009</strong>.
+          <Trans
+            i18nKey="after_completing_the_higher_degree_in_computer_application_development"
+            components={{ b: <b />, span: <span /> }}
+          />
         </p>
         <p className="mb-4">
-          En el <strong>año 2015 apruebo todas las asignaturas</strong> y
-          comienzo a trabajar en Zitelia, compaginando el trabajo en la empresa
-          con la realización del TFC (trabajo de fin de carrera).
+          <Trans
+            i18nKey="in_2015_i_pass_all_the_subjects_and_start_working_at_zitelia_combining_work_in_the_company_with_the_completion_of_the_tfc_end_of_degree_project"
+            components={{ b: <b /> }}
+          />
         </p>
         <p className="mb-4">
-          En el <strong>año 2017 presento el TFC</strong> y me adentro
-          completamente en el mundo laboral.
+          <Trans
+            i18nKey="in_2017_i_present_the_tfc_and_immerse_myself_completely_in_the_working_world"
+            components={{ b: <b /> }}
+          />
         </p>
       </div>
     </div>

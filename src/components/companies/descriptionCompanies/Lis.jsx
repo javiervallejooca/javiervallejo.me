@@ -2,8 +2,7 @@ const Lis = () => {
   return (
     <div>
       <p className="mb-4">
-        Mi última andadura profesional, desarrollador frontend, específicamete
-        de React en LIS Data Solutions.
+        En LIS me encargo de participar en diferentes proyectos de React.
       </p>
       <p className="mb-4">
         A raíz de trabajar en diferentes proyectos amplio conocimientos acerca

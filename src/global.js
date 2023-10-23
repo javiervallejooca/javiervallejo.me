@@ -8,7 +8,7 @@ export const COUNT_TIME_BY = {
   years: "años",
   months: "meses",
   weeks: "semanas",
-  days: "dias",
+  days: "días",
   hours: "horas",
   minutes: "minutos",
   seconds: "segundos",

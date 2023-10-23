@@ -2,21 +2,22 @@ const Lis = () => {
   return (
     <div>
       <p className="mb-4">
-        En LIS me encargo de participar en diferentes proyectos de React.
+        En LIS Data Solutions me encargo de participar en diferentes proyectos
+        de React.
       </p>
       <p className="mb-4">
-        A raíz de trabajar en diferentes proyectos amplio conocimientos acerca
-        de diferentes librerias de componentes como Material UI y Prime React.
+        A raíz de trabajar en múltiples proyectos amplio conocimientos acerca de
+        diferentes librerías de componentes como Material UI y Prime React.
       </p>
       <p className="mb-4">
-        También he mejorado en cuestiones técnicas y generales de React en base
-        a trabajar continuamente en él, como utilizar Error Boundaries, carga
-        diferida de componentes y gestión de estados globales con Redux, Zustand
-        y Context.
+        También he mejorado en cuestiones técnicas y generales de React:
+        Utilizando Error Boundaries, carga diferida de componentes, múltiples
+        librerías para hacer llamadas a APIs, gestión de estados globales con
+        Redux, Zustand y Context.
       </p>
       <p className="mb-4">
-        En alguna ocasión ayudo a ciertas tareas de backend, utiizando Python y
-        FastAPI como framework.
+        En alguna ocasión he ayudado a ciertas tareas de backend, utilizando
+        Python y FastAPI como framework.
       </p>
     </div>
   );

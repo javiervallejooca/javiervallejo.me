@@ -63,6 +63,13 @@ const WorkingExperience = () => {
     }
   };
 
+  const companies = [
+    COMPANIES_WHERE_I_WORK.ingecid,
+    COMPANIES_WHERE_I_WORK.lis,
+    COMPANIES_WHERE_I_WORK.iteisa,
+    COMPANIES_WHERE_I_WORK.zitelia,
+  ];
+
   return (
     <div className="relative mb-5 w-5/6 sm:w-3/4 md:w-3/5 xl:max-w-5xl">
       <div className="sticky right-0 top-0 mb-4 bg-slate-100 px-4 py-4 text-xl font-bold text-slate-800 opacity-100 dark:bg-slate-900 dark:text-slate-200">
@@ -89,35 +96,18 @@ const WorkingExperience = () => {
         </p>
       </div>
 
-      <Company
-        companyAsKey={COMPANIES_WHERE_I_WORK.lis.companyAsKey}
-        current={COMPANIES_WHERE_I_WORK.lis.current}
-        dateFrom={COMPANIES_WHERE_I_WORK.lis.dateFrom}
-        dateTo={COMPANIES_WHERE_I_WORK.lis.dateTo}
-        job={COMPANIES_WHERE_I_WORK.lis.job}
-        name={COMPANIES_WHERE_I_WORK.lis.name}
-        technologies={COMPANIES_WHERE_I_WORK.lis.tecnologies}
-      ></Company>
-
-      <Company
-        companyAsKey={COMPANIES_WHERE_I_WORK.iteisa.companyAsKey}
-        current={COMPANIES_WHERE_I_WORK.iteisa.current}
-        dateFrom={COMPANIES_WHERE_I_WORK.iteisa.dateFrom}
-        dateTo={COMPANIES_WHERE_I_WORK.iteisa.dateTo}
-        job={COMPANIES_WHERE_I_WORK.iteisa.job}
-        name={COMPANIES_WHERE_I_WORK.iteisa.name}
-        technologies={COMPANIES_WHERE_I_WORK.iteisa.tecnologies}
-      ></Company>
-
-      <Company
-        companyAsKey={COMPANIES_WHERE_I_WORK.zitelia.companyAsKey}
-        current={COMPANIES_WHERE_I_WORK.zitelia.current}
-        dateFrom={COMPANIES_WHERE_I_WORK.zitelia.dateFrom}
-        dateTo={COMPANIES_WHERE_I_WORK.zitelia.dateTo}
-        job={COMPANIES_WHERE_I_WORK.zitelia.job}
-        name={COMPANIES_WHERE_I_WORK.zitelia.name}
-        technologies={COMPANIES_WHERE_I_WORK.zitelia.tecnologies}
-      ></Company>
+      {companies.map((company) => (
+        <Company
+          key={crypto.randomUUID()}
+          companyAsKey={company.companyAsKey}
+          current={company.current}
+          dateFrom={company.dateFrom}
+          dateTo={company.dateTo}
+          job={company.job}
+          name={company.name}
+          technologies={company.tecnologies}
+        />
+      ))}
     </div>
   );
 };

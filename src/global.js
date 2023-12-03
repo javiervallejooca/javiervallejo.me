@@ -91,8 +91,8 @@ export const COMPANIES_WHERE_I_WORK = {
   lis: {
     companyAsKey: "lis",
     dateFrom: "2023-02-06",
-    dateTo: new Date(),
-    current: true,
+    dateTo: "2023-11-30",
+    current: false,
     job: "Desarrollador frontend",
     name: "LIS Data Solutions",
     color: "#00b1e2",
@@ -109,6 +109,16 @@ export const COMPANIES_WHERE_I_WORK = {
       "Tailwind CSS",
       "Python",
     ],
+  },
+  ingecid: {
+    companyAsKey: "ingecid",
+    dateFrom: "2023-12-01",
+    dateTo: new Date(),
+    current: true,
+    job: "Desarrollador frontend",
+    name: "Ingecid",
+    color: "#212f40",
+    tecnologies: ["React", "Redux", "TypeScript", "Axios"],
   },
 };
 
@@ -152,6 +162,19 @@ export const SERIES_FOR_CHART = [
       },
     ],
   },
+  // Ingecid
+  {
+    name: COMPANIES_WHERE_I_WORK.ingecid.name,
+    data: [
+      {
+        x: "💻",
+        y: [
+          convertMomentToDate(COMPANIES_WHERE_I_WORK.ingecid.dateFrom),
+          convertMomentToDate(COMPANIES_WHERE_I_WORK.ingecid.dateTo),
+        ],
+      },
+    ],
+  },
 ];
 
 export const optionsForChart = {
@@ -177,6 +200,7 @@ export const optionsForChart = {
     COMPANIES_WHERE_I_WORK.zitelia.color.toString(),
     COMPANIES_WHERE_I_WORK.iteisa.color.toString(),
     COMPANIES_WHERE_I_WORK.lis.color.toString(),
+    COMPANIES_WHERE_I_WORK.ingecid.color.toString(),
   ],
   fill: {
     type: "solid",

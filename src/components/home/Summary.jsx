@@ -34,9 +34,9 @@ const Summary = () => {
                 className="font-bold text-sky-500 hover:text-sky-400 hover:decoration-sky-400"
                 target="_blank"
                 rel="noopeneer noreferrer"
-                href="https://www.lisdatasolutions.com/es/"
+                href="https://ingecid.es//"
               >
-                LIS Data Solutions
+                Ingecid
               </a>
             </p>
 

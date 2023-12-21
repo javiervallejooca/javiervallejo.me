@@ -41,7 +41,8 @@ const Summary = () => {
             </p>
 
             <p className="pb-6 pt-3 text-center font-poppins font-normal text-slate-500 dark:text-slate-400">
-              React<br></br>JavaScript<br></br>PHP<br></br>WordPress
+              React<br></br>JavaScript<br></br>TypeScript<br></br>PHP<br></br>
+              WordPress
               <br></br>PrestaShop<br></br> SEO
             </p>
 

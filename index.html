@@ -19,17 +19,6 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;1,700&display=swap"
       rel="stylesheet"
     />
-    <script>
-      if (
-        localStorage.theme === "dark" ||
-        (!("theme" in localStorage) &&
-          window.matchMedia("(prefers-color-scheme: dark)").matches)
-      ) {
-        document.documentElement.classList.add("dark");
-      } else {
-        document.documentElement.classList.remove("dark");
-      }
-    </script>
   </head>
   <body
     class="scrollbar scrollbar-thin scrollbar-track-slate-500 scrollbar-thumb-slate-400 dark:scrollbar-track-slate-500 dark:scrollbar-thumb-slate-600"

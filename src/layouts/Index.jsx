@@ -11,7 +11,17 @@ const Index = () => {
     darkToggle
       ? document.documentElement.classList.add("dark")
       : document.documentElement.classList.remove("dark");
-  }, [darkToggle, localStorage.theme]);
+  }, [darkToggle]);
+
+  useEffect(() => {
+    // Verificar si el navegador tiene modo oscuro
+    const darkModeMediaQuery = window.matchMedia(
+      "(prefers-color-scheme: dark)"
+    );
+
+    // Actualizar el estado basado en el valor actual del media query
+    setDarkToggle(darkModeMediaQuery.matches);
+  }, []);
 
   return (
     <div className="w-full bg-gradient-to-b from-slate-200 to-slate-300 selection:bg-slate-600 selection:text-slate-100 dark:from-slate-800 dark:to-slate-900 dark:selection:bg-slate-200 dark:selection:text-slate-800">

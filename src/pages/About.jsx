@@ -3,7 +3,6 @@ import GoBack from "../components/about/GoBack";
 import SummarySkills from "../components/about/SummarySkills";
 import Studies from "../components/about/Studies";
 import WorkingExperience from "../components/about/WorkingExperience";
-import Chart from "../components/about/Chart";
 
 const About = () => {
   return (
@@ -12,7 +11,6 @@ const About = () => {
       <WorkingExperience />
       <AboutMe />
       <SummarySkills />
-      <Chart />
       <GoBack />
     </div>
   );

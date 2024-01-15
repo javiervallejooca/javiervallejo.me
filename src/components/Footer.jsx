@@ -1,10 +1,17 @@
+import { useTranslation } from "react-i18next";
+
 import react from "../img/react.svg";
 import vite from "../img/vite.svg";
 import tailwind from "../img/tailwindcss.svg";
-import { useTranslation } from "react-i18next";
+
+import packageJson from "../../package.json";
 
 const Footer = () => {
   const { t } = useTranslation();
+
+  const versionVite = packageJson.devDependencies.vite;
+  const versionReact = packageJson.dependencies.react;
+  const versionTailwind = packageJson.devDependencies.tailwindcss;
 
   return (
     <footer className="font-Poppins flex items-center justify-center py-2 text-sm text-slate-600 dark:text-slate-400">
@@ -13,7 +20,7 @@ const Footer = () => {
         <img
           name="Vite"
           alt="Vite"
-          title="Vite"
+          title={`Vite v${versionVite}`}
           className="mx-1 h-4 w-4 "
           src={vite}
         />{" "}
@@ -21,7 +28,7 @@ const Footer = () => {
         <img
           name="React"
           alt="React"
-          title="React"
+          title={`React v${versionReact}`}
           className="mx-1 h-4 w-4 fill-white"
           src={react}
         />
@@ -29,7 +36,7 @@ const Footer = () => {
         <img
           name="Tailwind CSS"
           alt="Tailwind CSS"
-          title="Tailwind CSS"
+          title={`Tailwind CSS v${versionTailwind}`}
           className="mx-1 h-4 w-4 fill-white"
           src={tailwind}
         />

@@ -1,12 +1,9 @@
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import Summary from "../components/home/Summary";
 
 const Home = () => {
-  const firstRender = useRef(false);
-
   useEffect(() => {
-    if (!firstRender.current) {
-      console.log(`
+    console.log(`
                                                                                                                 
                                                                                                                 
         TTTTTTTTTTTTTTTTTTTTTTThhhhhhh                                                kkkkkkkk                          
@@ -33,12 +30,10 @@ const Home = () => {
                                                                                                                         
                                                                                                                         
         `);
-      console.log(
-        "A todas las personas que me han enseñado/me enseñan y me han hacen convertirme en un mejor trabajador."
-      );
-      console.log("Mención a A. Guerra, que me inspiró para hacer esta web ✌️");
-      firstRender.current = true;
-    }
+    console.log(
+      "A todas las personas que me han enseñado/me enseñan y me han hacen convertirme en un mejor trabajador."
+    );
+    console.log("Mención a A. Guerra, que me inspiró para hacer esta web ✌️");
   }, []);
 
   return <Summary />;

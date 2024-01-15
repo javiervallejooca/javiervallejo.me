@@ -17,7 +17,7 @@
   "Y": "y",
   "years": "años",
 
-  "throughout_my_work_experience": "A lo largo de mi experiencia laboral he trabajado con varias tecnologías.",
+  "throughout_my_work_experience": "A lo largo de mi experiencia laboral, que son unos {{seconds}} segundos desde el año {{year}},  he trabajado con varias tecnologías",
   "technology_list": "Si tuviera que plantear un breve listado y un tiempo aprox. con cada una de ellas, sería el siguiente:",
   "graph_info": "En esta gráfica puedes ver, de forma dividida por empresas, mis {{seconds}} segundos en activo desde que me inicié laboralmente como desarrollador en el año {{year}}.",
 

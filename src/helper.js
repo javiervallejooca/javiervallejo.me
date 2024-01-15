@@ -15,7 +15,7 @@ export const convertMomentToDate = (date = moment()) => {
 /**
  * @description Devuelve la cantidad de segundos trabajados desde mi primer día en Zitelia.
  */
-export const getDaysWorked = () => {
+export const getSecondsWorked = () => {
   let today = moment(new Date());
   let startDate = moment("2015-01-12");
   let duration = moment.duration(today.diff(startDate));

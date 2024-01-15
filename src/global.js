@@ -1,5 +1,3 @@
-import { convertMomentToDate } from "./helper";
-
 // 12 de enero de 2015.
 export const WHEN_STARTED_TO_WORK = 2015;
 
@@ -71,7 +69,7 @@ export const COMPANIES_WHERE_I_WORK = {
   iteisa: {
     companyAsKey: "iteisa",
     dateFrom: "2021-05-01",
-    dateTo: "2023-01-31", //{new Date()}
+    dateTo: "2023-01-31",
     current: false,
     job: "Desarrollador de software",
     name: "ITEISA",
@@ -91,7 +89,7 @@ export const COMPANIES_WHERE_I_WORK = {
   lis: {
     companyAsKey: "lis",
     dateFrom: "2023-02-06",
-    dateTo: "2023-11-30",
+    dateTo: "2023-11-30", //{new Date()}
     current: false,
     job: "Desarrollador frontend",
     name: "LIS Data Solutions",
@@ -118,105 +116,6 @@ export const COMPANIES_WHERE_I_WORK = {
     job: "Desarrollador frontend",
     name: "Ingecid",
     color: "#212f40",
-    tecnologies: ["React", "Redux", "TypeScript", "Axios"],
-  },
-};
-
-export const SERIES_FOR_CHART = [
-  // Zitelia
-  {
-    name: COMPANIES_WHERE_I_WORK.zitelia.name,
-    data: [
-      {
-        x: "💻",
-        y: [
-          convertMomentToDate(COMPANIES_WHERE_I_WORK.zitelia.dateFrom),
-          convertMomentToDate(COMPANIES_WHERE_I_WORK.zitelia.dateTo),
-        ],
-      },
-    ],
-  },
-  // ITEISA
-  {
-    name: COMPANIES_WHERE_I_WORK.iteisa.name,
-    data: [
-      {
-        x: "💻",
-        y: [
-          convertMomentToDate(COMPANIES_WHERE_I_WORK.iteisa.dateFrom),
-          convertMomentToDate(COMPANIES_WHERE_I_WORK.iteisa.dateTo),
-        ],
-      },
-    ],
-  },
-  // LIS Data Solutions
-  {
-    name: COMPANIES_WHERE_I_WORK.lis.name,
-    data: [
-      {
-        x: "💻",
-        y: [
-          convertMomentToDate(COMPANIES_WHERE_I_WORK.lis.dateFrom),
-          convertMomentToDate(COMPANIES_WHERE_I_WORK.lis.dateTo),
-        ],
-      },
-    ],
-  },
-  // Ingecid
-  {
-    name: COMPANIES_WHERE_I_WORK.ingecid.name,
-    data: [
-      {
-        x: "💻",
-        y: [
-          convertMomentToDate(COMPANIES_WHERE_I_WORK.ingecid.dateFrom),
-          convertMomentToDate(COMPANIES_WHERE_I_WORK.ingecid.dateTo),
-        ],
-      },
-    ],
-  },
-];
-
-export const optionsForChart = {
-  chart: {
-    height: 350,
-    width: 850,
-    type: "rangeBar",
-    toolbar: {
-      show: false,
-    },
-    zoom: {
-      enabled: false,
-    },
-  },
-  plotOptions: {
-    bar: {
-      horizontal: true,
-      barHeight: "75%",
-      rangeBarGroupRows: true,
-    },
-  },
-  colors: [
-    COMPANIES_WHERE_I_WORK.zitelia.color.toString(),
-    COMPANIES_WHERE_I_WORK.iteisa.color.toString(),
-    COMPANIES_WHERE_I_WORK.lis.color.toString(),
-    COMPANIES_WHERE_I_WORK.ingecid.color.toString(),
-  ],
-  fill: {
-    type: "solid",
-  },
-  xaxis: {
-    type: "datetime",
-  },
-  legend: {
-    position: "right",
-  },
-  tooltip: {
-    custom: function (opts) {
-      const fromYear = new Date(opts.y1).getFullYear();
-      const toYear = new Date(opts.y2).getFullYear();
-
-      return `<p className="p-4">Del ${fromYear} al ${toYear}</p>`;
-    },
+    tecnologies: ["React", "Redux", "Redux Toolkit", "TypeScript", "Axios"],
   },
 };

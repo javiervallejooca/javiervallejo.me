@@ -98,7 +98,7 @@ const WorkingExperience = () => {
 
       {companies.map((company) => (
         <Company
-          key={crypto.randomUUID()}
+          key={company.companyAsKey}
           companyAsKey={company.companyAsKey}
           current={company.current}
           dateFrom={company.dateFrom}

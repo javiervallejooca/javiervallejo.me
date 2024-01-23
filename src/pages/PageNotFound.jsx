@@ -10,6 +10,14 @@ const PageNotFound = () => {
             La página 404 de toda la vida..., desconozco cómo has llegado hasta
             aquí ...
           </p>
+          <iframe
+            src="https://giphy.com/embed/g01ZnwAUvutuK8GIQn"
+            width="480"
+            height="270"
+            frameBorder="0"
+            allowFullScreen
+          ></iframe>
+
           <GoBack />
         </div>
       </div>

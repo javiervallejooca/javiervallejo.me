@@ -9,7 +9,7 @@ import packageJson from "../../package.json";
 const Footer = () => {
   const { t } = useTranslation();
 
-  const versionVite = packageJson.devDependencies.vite;
+  const versionVite = packageJson.dependencies.vite;
   const versionReact = packageJson.dependencies.react;
   const versionTailwind = packageJson.devDependencies.tailwindcss;
 

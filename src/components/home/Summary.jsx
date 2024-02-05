@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
+import { FaGithub } from "react-icons/fa";
+import { MdAlternateEmail } from "react-icons/md";
+import { HiOutlineDesktopComputer } from "react-icons/hi";
+
 import logo from "../../img/logo-jv.webp";
 
 const Summary = () => {
@@ -40,16 +44,32 @@ const Summary = () => {
               </a>
             </p>
 
-            <p className="pb-6 pt-3 text-center font-poppins font-normal text-slate-500 dark:text-slate-400">
+            <p className="pb-2 pt-3 text-center font-poppins font-normal text-slate-500 dark:text-slate-400">
               React<br></br>JavaScript<br></br>TypeScript<br></br>PHP<br></br>
               WordPress
               <br></br>PrestaShop<br></br> SEO
             </p>
 
+            <div className="flex gap-4 justify-center pb-4">
+              <a
+                target="_blank"
+                rel="noopeneer noreferrer"
+                href="https://github.com/javiervallejooca/"
+              >
+                <FaGithub className=" text-slate-600 dark:text-slate-400 text-3xl" />
+              </a>
+              <a href="mailto: contacto@javiervallejo.com">
+                <MdAlternateEmail className="text-slate-600 dark:text-slate-400 text-3xl" />
+              </a>
+              <a target="_blank" href="https://javiervallejo.com/">
+                <HiOutlineDesktopComputer className=" text-slate-600 dark:text-slate-400 text-3xl" />
+              </a>
+            </div>
+
             <Link
               className={`flex justify-center rounded border border-slate-600 bg-slate-100    
                       py-2 font-poppins text-slate-600  hover:border-slate-100 hover:bg-slate-700 hover:text-slate-100
-                      dark:border-slate-400 dark:bg-slate-900 dark:text-slate-400  dark:hover:border-slate-900 dark:hover:bg-slate-300 dark:hover:text-slate-900`}
+                      dark:border-slate-400 dark:bg-slate-900 dark:text-slate-400 dark:hover:border-slate-900 dark:hover:bg-slate-300 dark:hover:text-slate-900`}
               to="/sobre-mi"
             >
               {t("view_more_information")}

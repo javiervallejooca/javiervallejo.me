@@ -55,13 +55,22 @@ const Summary = () => {
                 target="_blank"
                 rel="noopeneer noreferrer"
                 href="https://github.com/javiervallejooca/"
+                aria-label="Enlace a mi GitHub"
               >
                 <FaGithub className=" text-slate-600 dark:text-slate-400 text-3xl" />
               </a>
-              <a href="mailto: contacto@javiervallejo.com">
+              <a
+                href="mailto: contacto@javiervallejo.com"
+                aria-label="Enlace a mi correo"
+              >
                 <MdAlternateEmail className="text-slate-600 dark:text-slate-400 text-3xl" />
               </a>
-              <a target="_blank" href="https://javiervallejo.com/">
+              <a
+                target="_blank"
+                rel="noopeneer noreferrer"
+                href="https://javiervallejo.com/"
+                aria-label="Enlace a mi web que uso de blog"
+              >
                 <HiOutlineDesktopComputer className=" text-slate-600 dark:text-slate-400 text-3xl" />
               </a>
             </div>

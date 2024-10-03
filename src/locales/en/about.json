@@ -1,20 +1,21 @@
 {
-  "E": "e",
-  "F": "f",
-  "training_and_beginnings": "Training and beginnings",
-  "S": "s",
-  "about_me_and_learning_perspectives": "About me and learning perspectives",
-  "R": "r",
-  "summary_of_my_skills_or_experience": "Summary of my skills or experience",
-  "V": "v",
-  "back_to_home": "Back to home",
-  "Y": "y",
-  "years": "years",
-  "W": "w",
-  "work_experience": "Work experience",
-  "throughout_my_work_experience": "Throughout my work experience, around {{seconds}} since {{year}}, I have worked with various technologies.",
-  "technology_list": "If I had to create a brief list and an approximate time for each of them, it would be as follows:",
+  "training_and_beginnings": {
+    "title": "Training and beginnings",
+    "first_computer_formatting": "The first time I saw a computer being formatted, at the age of 14, the process stuck in my memory like Queen's \"We Will Rock You.\"",
+    "formatted_myself": "A few days later, I repeated the process of formatting the computer myself, and everything went well.",
+    "interest_in_computers": "That small satisfaction aroused my attention for everything related to computers, of course, games were also a reason.",
+    "computer_engineering_studies": "That satisfaction was the reason I pursued a degree in <span className='bg-slate-600 px-2 text-slate-200 dark:bg-slate-400 dark:text-slate-700'>computer engineering</span> at the University of Cantabria.",
+    "professional_career_start": "In 2015, after passing all my courses, I started my professional career."
+  },
 
+  "work_experience": {
+    "title": "Work experience",
+    "years_of_experience": "As soon as I finished my studies I started working, so I have accumulated <span className='bg-slate-600 px-2 text-slate-200 dark:bg-slate-400 dark:text-slate-700'>{{years}} years of work experience.</span>",
+    "companies_worked": "This is the <b>reverse chronological order</b> of the companies where I am/have been working."
+  },
+
+  "frontend-developer": "Frontend developer",
+  "software-developer": "Software developer",
   "january": "January",
   "february": "February",
   "march": "March",
@@ -28,12 +29,71 @@
   "november": "November",
   "december": "December",
   "year": "year",
+  "years": "years",
   "months": "months",
   "month": "month",
   "currently": "Currently",
 
-  "since_i_was_a_child_i_liked_computers_and_tinkered_with_them": "Since I was a child, I liked computers and tinkered with them; this was the main reason for studying computer science.",
-  "after_completing_the_higher_degree_in_computer_application_development": "After completing the higher degree in computer application development, I, along with some friends, decided to study computer engineering at the University of Cantabria, starting the degree in 2009.",
-  "in_2015_i_pass_all_the_subjects_and_start_working_at_zitelia_combining_work_in_the_company_with_the_completion_of_the_tfc_end_of_degree_project": "In the year 2015, I pass all the subjects and start working at Zitelia, combining work in the company with the completion of the TFC (end of degree project).",
-  "in_2017_i_present_the_tfc_and_immerse_myself_completely_in_the_working_world": "In the year 2017, I present the TFC and immerse myself completely in the working world."
+  "ingecid": {
+    "frontend_developer": "Frontend React Developer using TypeScript.",
+    "vircore_migration": "Ingecid has its own software, VIRCORE, and I am participating in the process of migrating it to the web, as it is a desktop application."
+  },
+
+  "lis": {
+    "first_experience": "At LIS Data Solutions, I participated in various projects as a React Frontend Developer.",
+    "knowledge_increase": "Through working on multiple projects, I expanded my knowledge of different component libraries like Material UI and Prime React.",
+    "react_improvement": "I also improved in technical and general React aspects: using Error Boundaries, lazy loading of components, multiple libraries for API calls, and global state management with Redux, Zustand, and Context.",
+    "backend_help": "Occasionally, I assisted with backend tasks, using Python and FastAPI as the framework."
+  },
+
+  "iteisa": {
+    "web_development_focus": "Initially focused on web development work using CMS platforms like WordPress, PrestaShop, and Moodle.",
+    "wordpress_plugins": "I developed several WordPress plugins to meet client needs, which gave me a very deep understanding of this content management system.",
+    "theme_customization": "Thanks to this knowledge, I also customized themes, so I would be capable of creating a custom theme.",
+    "responsible_web_development": "At ITEISA, as the head of development in the web department, I completed the full cycle: from initial meetings, requirement gathering, to product development and client training.",
+    "hosting_services_context": "ITEISA is a company offering hosting services, so many days involved handling multiple projects due to receiving tickets for platform updates, plugin configuration, fixing issues... Context switching was a regular part of my daily routine.",
+    "react_and_js_frameworks": "Due to company needs, I began working with React, helping on various projects, as well as other JavaScript frameworks like Next.js and 11ty (Eleventy)."
+  },
+
+  "zitelia": {
+    "first_experience": "My first experience as an IT professional.",
+    "initially": "Initially, and the reason I joined, was to help develop internal software in C#.",
+    "after_project": "When that project was finished, I was offered to work on web development with WordPress and PrestaShop.",
+    "talking_clients": "Given my ease of speaking with clients and successfully training them to self-manage their content, I started receiving responsibilities as a commercial technician.",
+    "job_description": "The work involved requirements gathering, guiding clients on their projects, development, preparation of documentation, and training so that clients could learn and understand how to manage their platform.",
+    "seo_learning": "Due to work needs, I learned SEO skills to get websites to rank well in Google search results, successfully positioning Zitelia's web services in the top spots of the national market.",
+    "last_years": "In the last 3/4 years, my work has been focused on custom software development, primarily using PHP, with CodeIgniter framework as a monolithic system."
+  },
+
+  "aboutMe": {
+    "title": "A little more about me",
+    "level": "At level {{level}} of my life.",
+    "hobbies": "My hobbies include traveling, photography, and music. I have been a DJ for over {{yearsDjing}} years in several venues in Santander, where I was born and currently live.",
+    "djAnecdotes": "On my personal website, you can read <a className='text-slate-600 underline underline-offset-4 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300' href='https://javiervallejo.com/anecdotas-dj/' target='_blank'>DJ anecdotes</a> that I have collected over the years.",
+    "officePreference": "I'm in the office-going team; as of today, I don't think I'd like or would find it easy to work in a 100% remote position.",
+    "learning": "I like staying updated with new technologies that I can apply to my job, so in my free time, I program to improve my skills or acquire new ones.",
+    "personalProject": "My latest personal project: <a className='text-slate-600 underline underline-offset-4 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300' href='https://tareasrepetitivas.com' target='_blank'>tareasrepetitivas.com</a>, is a task manager for controlling recurring tasks that about 30 users are using. I built the backend with Node.js and Express.",
+    "note": "NOTE: It's a private software. If you'd like to try it, you can contact me at contacto@javiervallejo.com."
+  },
+
+  "summary_skills": {
+    "title": "Summary of my skills or experience",
+    "throughout_my_work_experience": "Throughout my work experience, since 2015, I have worked with various technologies.",
+    "technology_list": "If I had to create a brief list and an approximate time for each of them, it would be as follows:"
+  },
+
+  "projects": {
+    "title": "Some personal projects",
+    "motivation": "These projects arose for two reasons:",
+    "keep_learning": "1.- To continue learning and practicing.",
+    "satisfy": "2.- To satisfy some need, either personal or for someone I know.",
+    "description_cuentapalabras": "One of my first projects, with the added feature of automatically capitalizing after punctuation marks.",
+    "description_laredireccion": "A tool to generate 301 redirects in bulk and insert them into the .htaccess file of your server.",
+    "description_tareasrepetitivas_frontend": "The visual part of the repetitive task manager, created to meet the needs of a hospitality business manager.",
+    "description_tareasrepetitivas_backend": "All the logic behind the repetitive task manager necessary to store data, make the application operational, and send emails.",
+    "description_javiervallejo_me": "A website used as a CV to keep it up to date, with the particular feature of being a multi-language site.",
+    "description_javiervallejo_com": "A WordPress site where I wrote manuals and answered common questions from various users about WordPress and SEO, among other topics."
+  },
+
+  "back_to_home": "Back to home"
 }

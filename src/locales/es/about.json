@@ -1,26 +1,21 @@
 {
-  "E": "e",
-  "work_experience": "Experiencia laboral",
+  "training_and_beginnings": {
+    "title": "Formación e inicios",
+    "first_computer_formatting": "La primera vez que vi formatear un ordenador, con 14 años, se me quedó el proceso memorizado como el \"We will rock you\" de Queen.",
+    "formatted_myself": "Días más tarde repetí el proceso de formatear el ordenador por mi mismo y todo salió bien.",
+    "interest_in_computers": "Esa pequeña satisfacción despertó mi atención por todo lo relacionado con los ordenadores, por supuesto, los juegos eran también un motivo.",
+    "computer_engineering_studies": "Esa satisfacción fue el motivo de estudiar la carrera de <span className='bg-slate-600 px-2 text-slate-200 dark:bg-slate-400 dark:text-slate-700'>ingeniería informática</span> en la Universidad de Cantabria.",
+    "professional_career_start": "En 2015, tras aprobar todas las asignaturas, comienzo mi andadura profesional."
+  },
 
-  "f": "f",
-  "training_and_beginnings": "Formación e inicios",
+  "work_experience": {
+    "title": "Experiencia laboral",
+    "years_of_experience": "Nada más terminar mis estudios comencé a trabajar, por lo que acumulo <span className='bg-slate-600 px-2 text-slate-200 dark:bg-slate-400 dark:text-slate-700'>{{years}} años de experiencia laboral.</span>",
+    "companies_worked": "Este es el <b>orden cronológico inverso</b> de las empresas donde estoy/he estado trabajando."
+  },
 
-  "S": "s",
-  "about_me_and_learning_perspectives": "Sobre mí y perspectivas de aprendizaje",
-
-  "R": "r",
-  "summary_of_my_skills_or_experience": "Resumen sobre mis habilidades o experiencia",
-
-  "V": "v",
-  "back_to_home": "Volver al inicio",
-
-  "Y": "y",
-  "years": "años",
-
-  "throughout_my_work_experience": "A lo largo de mi experiencia laboral, que son unos {{seconds}} segundos desde el año {{year}},  he trabajado con varias tecnologías",
-  "technology_list": "Si tuviera que plantear un breve listado y un tiempo aprox. con cada una de ellas, sería el siguiente:",
-  "graph_info": "En esta gráfica puedes ver, de forma dividida por empresas, mis {{seconds}} segundos en activo desde que me inicié laboralmente como desarrollador en el año {{year}}.",
-
+  "frontend-developer": "Desarrollador frontend",
+  "software-developer": "Desarrollador de software",
   "january": "Enero",
   "february": "Febrero",
   "march": "Marzo",
@@ -33,14 +28,72 @@
   "october": "Octubre",
   "november": "Noviembre",
   "december": "Diciembre",
-
   "year": "año",
+  "years": "años",
   "months": "meses",
   "month": "mes",
   "currently": "Actualmente",
 
-  "since_i_was_a_child_i_liked_computers_and_tinkered_with_them": "Ya desde pequeño me gustaban los ordenadores y cacharreaba con ellos, esto fue el principal motivo de estudiar informática.",
-  "after_completing_the_higher_degree_in_computer_application_development": "Tras finalizar el grado superior de desarrollo de aplicaciones informáticas, me animo junto a unos amigos a estudiar la carrera de <span className='bg-slate-600 px-1 text-slate-200 dark:bg-slate-400 dark:text-slate-800'>ingeniería informática</span> en la Universidad de Cantabria, comenzando la carrera en el 2009.",
-  "in_2015_i_pass_all_the_subjects_and_start_working_at_zitelia_combining_work_in_the_company_with_the_completion_of_the_tfc_end_of_degree_project": "En el <b>año 2015 apruebo todas las asignaturas</b> y comienzo a trabajar en Zitelia, compaginando el trabajo en la empresa con la realización del TFC (trabajo de fin de carrera).",
-  "in_2017_i_present_the_tfc_and_immerse_myself_completely_in_the_working_world": "En el <b>año 2017 presento el TFC</b> y me adentro completamente en el mundo laboral."
+  "ingecid": {
+    "frontend_developer": "Desarrollador frontend React utilizando TypeScript.",
+    "vircore_migration": "Ingecid dispone de un software propio, VIRCORE, y estoy participando en el proceso de su migración hacia web, dado que es una aplicación de escritorio."
+  },
+
+  "lis": {
+    "first_experience": "En LIS Data Solutions participaba en diferentes proyectos como desarrollador de Frontend de React.",
+    "knowledge_increase": "A raíz de trabajar en múltiples proyectos amplio conocimientos acerca de diferentes librerías de componentes como Material UI y Prime React.",
+    "react_improvement": "También he mejorado en cuestiones técnicas y generales de React: Utilizando Error Boundaries, carga diferida de componentes, múltiples librerías para hacer llamadas a APIs, gestión de estados globales con Redux, Zustand y Context.",
+    "backend_help": "En alguna ocasión he ayudado a ciertas tareas de backend, utilizando Python y FastAPI como framework."
+  },
+
+  "iteisa": {
+    "web_development_focus": "Enfocado 'originalmente' a realizar trabajos de desarrollo web en CMS, como WordPress, PrestaShop y Moodle.",
+    "wordpress_plugins": "He desarrollado varios plugins para WordPress y cumpliendo las necesidades de los clientes, estos plugins me han permitdo obtener un punto de vista muy profundo de este gestor de contenidos.",
+    "theme_customization": "Gracias a este conocimiento, también he retocado temas, por lo que sería capaz de hacer un theme o tema a medida.",
+    "responsible_web_development": "En ITEISA como responsable del desarrollo en el departamento web, cerraba el círculo entre las reuniones iniciales, las reuniones de toma de requisitos, el desarrollo del producto y la formación a cliente.",
+    "hosting_services_context": "ITEISA es una empresa con servicios de hosting, por lo que muchos días había que atender varios proyectos, ya que se recibían tickets para actualizar plataformas, configurar algún plugin, arreglar fallos... Los cambios de contexto eran habituales en mi día a día.",
+    "react_and_js_frameworks": "Por necesidades de la empresa comienzo mi desarrollo con React, empezando a ayudar en varios proyectos y otros frameworks JavaScript, como Next.js y 11ty (Eleventy)."
+  },
+
+  "zitelia": {
+    "first_experience": "Mi primera experiencia laboral como informático.",
+    "initially": "Inicialmente y el motivo por el que entré, fue para ayudar a desarrollar un software interno en C#.",
+    "after_project": "Cuando se acabó dicho proyecto me propusieron realizar desarrollos web en WordPress y PrestaShop.",
+    "talking_clients": "Al tener soltura para hablar con clientes y darles, exitosamente, la formación para la autogestión de contenidos, me empezaron a dar responsabilidades como técnico comercial.",
+    "job_description": "Los trabajos consistían en la toma de requisitos, orientación a los clientes en sus proyectos, el propio desarrollo, la preparación de documentación y formación para que el cliente aprendiera y conociera cómo manejar su plataforma.",
+    "seo_learning": "Por necesidades laborales, aprendí conocimientos de SEO para conseguir que páginas webs aparecieran en buenas posiciones en el buscador de Google, consiguiendo posicionar servicios de la web de Zitelia en las primeras posiciones del mercado nacional.",
+    "last_years": "En los últimos 3/4 años, enfocan mis trabajos al desarrollo de software a medida, trabajando principalmente con PHP. Utilizando el framework CodeIgniter a modo de sistema monolítico."
+  },
+
+  "aboutMe": {
+    "title": "Un poco más acerca de mí",
+    "level": "En el nivel {{level}} de mi vida.",
+    "hobbies": "Entre mis aficiones se encuentran viajar, la fotografía y la música, llevo más de {{yearsDjing}} años como dj en varios locales de Santander, donde he nacido y vivo actualmente.",
+    "djAnecdotes": "En mi web personal puedes leer <a className='text-slate-600 underline underline-offset-4 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300' href='https://javiervallejo.com/anecdotas-dj/' target='_blank'>anécdotas de dj</a> que he ido recopilando durante estos años.",
+    "officePreference": "Soy del equipo de ir a la oficina, a día de hoy, no me gustaría o creo que me costaría trabajar en un puesto 100% remoto.",
+    "learning": "Me gusta estar al día de nuevas tecnologías que pueda aplicar en mi puesto de trabajo por ello, en mis ratos libres me programo para mejorar mis habilidades u adquirir nuevas.",
+    "personalProject": "Mi último proyecto personal: <a className='text-slate-600 underline underline-offset-4 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300' href='https://tareasrepetitivas.com' target='_blank'>tareasrepetitivas.com</a>, es un gestor para el control de tareas recurrentes que los están usando unos 30 usuarios, en el que he construido en backend con Node JS y Express.",
+    "note": "NOTA: Es un software privado, si quieres probarlo puedes contactarme en contacto@javiervallejo.com."
+  },
+
+  "summary_skills": {
+    "title": "Resumen sobre mis habilidades o experiencia",
+    "throughout_my_work_experience": "A lo largo de mi experiencia laboral desde el año 2015 he trabajado con varias tecnologías.",
+    "technology_list": "Si tuviera que plantear un breve listado y un tiempo aprox. con cada una de ellas, sería el siguiente:"
+  },
+
+  "projects": {
+    "title": "Algunos proyectos personales",
+    "motivation": "Estos proyectos han surgido por dos motivos:",
+    "keep_learning": "1.- Seguir aprendiendo y practicando.",
+    "satisfy": "2.- Satisfacer alguna necesidad, bien sea personal o de algún conocido.",
+    "description_cuentapalabras": "De mis primeros proyectos, como particularidad añadí una funcionalidad para que pusiera las mayúsculas después de signos de puntuación.",
+    "description_laredireccion": "Herramienta para poder generar de forma masiva redirecciones 301 e insertarlas en el fichero .htaccess de tu servidor.",
+    "description_tareasrepetitivas_frontend": "La parte visual del gestor de tareas repetitivas creado a partir de la necesidad del gerente de un negocio de hosteleria.",
+    "description_tareasrepetitivas_backend": "Toda la lógica del gestor de tareas repetitivas necesaria para que la aplicación almacene datos, sea operativa y pueda enviar emails.",
+    "description_javiervallejo_me": "Página web usada a modo de CV para tenerlo al día, como particularidad, es una web multi-idioma.",
+    "description_javiervallejo_com": "Página WordPress en la cual redactaba manuales y dudas comunes de diversos usuarios acerca de WordPress y SEO, entre otros temas."
+  },
+
+  "back_to_home": "Volver al inicio"
 }

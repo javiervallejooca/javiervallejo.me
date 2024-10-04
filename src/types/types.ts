@@ -1,4 +1,4 @@
-export type Language = 'es' | 'en';
+export type Language = "es" | "en";
 
 export type Technology = {
   name: string;
@@ -15,20 +15,21 @@ export type Project = {
 };
 
 export enum TECHNOLOGY_KEYS {
-  REACT = 'react',
-  JAVASCRIPT = 'javascript',
-  TYPESCRIPT = 'typescript',
-  MUI = 'mui',
-  PHP = 'php',
-  WORDPRESS = 'wordpress',
-  PRESTASHOP = 'prestashop',
-  CSHARP = 'csharp',
-  NODEJS = 'nodejs',
-  EXPRESS = 'express',
-  TAILWIND = 'tailwind',
-  ZUSTAND = 'zustand',
-  NETLIFY = 'netlify',
-  MAILTRAP = 'mailtrap',
-  MYSQL = 'mysql',
-  I18N = 'i18n',
+  REACT = "react",
+  JAVASCRIPT = "javascript",
+  TYPESCRIPT = "typescript",
+  MUI = "mui",
+  PHP = "php",
+  WORDPRESS = "wordpress",
+  PRESTASHOP = "prestashop",
+  CSHARP = "csharp",
+  NODEJS = "nodejs",
+  EXPRESS = "express",
+  TAILWIND = "tailwind",
+  CONTEXT_API = "context_api",
+  ZUSTAND = "zustand",
+  NETLIFY = "netlify",
+  MAILTRAP = "mailtrap",
+  MYSQL = "mysql",
+  I18N = "i18n",
 }

@@ -15,7 +15,7 @@ export const PROJECTS: Project[] = [
     description: "projects.description_cuentapalabras",
     technologies: [
       TECHNOLOGY_KEYS.REACT,
-      TECHNOLOGY_KEYS.JAVASCRIPT,
+      TECHNOLOGY_KEYS.TYPESCRIPT,
       TECHNOLOGY_KEYS.TAILWIND,
       TECHNOLOGY_KEYS.NETLIFY,
     ],

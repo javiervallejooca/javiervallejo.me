@@ -9,9 +9,11 @@ const MainLayout = () => {
   const [darkToggle, setDarkToggle] = useState(false);
 
   useEffect(() => {
-    darkToggle
-      ? document.documentElement.classList.add("dark")
-      : document.documentElement.classList.remove("dark");
+    if (darkToggle) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
   }, [darkToggle]);
 
   useEffect(() => {

@@ -3,10 +3,6 @@ export default {
   content: ["./index.html", "./src/**/*.{html,js,ts,tsx}"],
   theme: {
     extend: {
-      fontFamily: {
-        poppins: ["Poppins"],
-        dmsans: ["DM Sans"],
-      },
       margin: {
         "70px": "70px",
       },

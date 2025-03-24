@@ -71,7 +71,7 @@
     "hobbies": "Entre mis aficiones se encuentran viajar, la fotografía y la música, llevo más de {{yearsDjing}} años como dj en varios locales de Santander, donde he nacido y vivo actualmente.",
     "djAnecdotes": "En mi web personal puedes leer <a className='text-slate-600 underline underline-offset-4 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300' href='https://javiervallejo.com/anecdotas-dj/' target='_blank'>anécdotas de dj</a> que he ido recopilando durante estos años.",
     "officePreference": "Soy del equipo de ir a la oficina, a día de hoy, no me gustaría o creo que me costaría trabajar en un puesto 100% remoto.",
-    "learning": "Me gusta estar al día de nuevas tecnologías que pueda aplicar en mi puesto de trabajo por ello, en mis ratos libres me programo para mejorar mis habilidades u adquirir nuevas.",
+    "learning": "Me gusta estar al día de nuevas tecnologías que pueda aplicar en mi puesto de trabajo por ello, en mis ratos libres me gusta programar para mejorar mis habilidades u adquirir nuevas.",
     "personalProject": "Mi último proyecto personal: <a className='text-slate-600 underline underline-offset-4 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300' href='https://tareasrepetitivas.com' target='_blank'>tareasrepetitivas.com</a>, es un gestor para el control de tareas recurrentes que los están usando unos 30 usuarios, en el que he construido en backend con Node JS y Express.",
     "note": "NOTA: Es un software privado, si quieres probarlo puedes contactarme en contacto@javiervallejo.com."
   },

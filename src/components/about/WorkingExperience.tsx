@@ -1,14 +1,11 @@
 import { Trans, useTranslation } from 'react-i18next';
 
-import Company from '../companies/Company';
-
+import Company from './companies/Company';
 import { COMPANIES_WHERE_I_WORK } from '../../data/companies';
-import { YEAR_STARTED_TO_WORK } from '../../data/constants';
+import { dateUtils } from '../../utils/dateUtils';
 
 const WorkingExperience = () => {
   const { t } = useTranslation();
-
-  const workingSince = new Date().getFullYear() - YEAR_STARTED_TO_WORK; //in years
 
   return (
     <div className='relative mb-5 w-5/6 sm:w-3/4 md:w-3/5 xl:max-w-5xl'>
@@ -19,7 +16,7 @@ const WorkingExperience = () => {
         <p className='mb-4'>
           <Trans
             i18nKey={t('work_experience.years_of_experience', {
-              years: workingSince,
+              years: dateUtils.calculateYearsExperience(),
             })}
             components={{ b: <b />, span: <span /> }}
           />
@@ -38,7 +35,6 @@ const WorkingExperience = () => {
           name={company.name}
           dateFrom={company.dateFrom}
           dateTo={company.dateTo}
-          current={company.current}
           job={company.job}
           technologies={company.tecnologies}
         />

@@ -1,6 +1,5 @@
+import { JSX } from 'react';
 import { useTranslation } from 'react-i18next';
-import Technologies from './Technologies';
-import TimeWorked from './TimeWorked';
 
 import Ingecid from './descriptionCompanies/Ingecid';
 import Iteisa from './descriptionCompanies/Iteisa';
@@ -12,9 +11,11 @@ import {
   COMPANY_ITEISA,
   COMPANY_LIS,
   COMPANY_ZITELIA,
-} from '../../data/companies';
+} from '../../../data/companies';
+import TimeWorked from './TimeWorked';
+import Technologies from './Technologies';
 
-const renderCompanyDescription = (company: string) => {
+const renderCompanyDescription = (company: string): JSX.Element | null => {
   switch (company) {
     case COMPANY_INGECID:
       return <Ingecid />;
@@ -32,20 +33,12 @@ const renderCompanyDescription = (company: string) => {
 interface Props {
   name: string;
   dateFrom: string;
-  dateTo: Date | string;
-  current: boolean;
+  dateTo: string | null;
   job: string;
   technologies: string[];
 }
 
-const Company = ({
-  name,
-  dateFrom,
-  dateTo,
-  current,
-  job,
-  technologies,
-}: Props) => {
+const Company = ({ name, dateFrom, dateTo, job, technologies }: Props) => {
   const { t } = useTranslation();
 
   return (
@@ -59,11 +52,7 @@ const Company = ({
             {t(job)}
           </div>
         </div>
-        <TimeWorked
-          textDateFrom={dateFrom}
-          textDateTo={dateTo}
-          current={current}
-        />
+        <TimeWorked textDateFrom={dateFrom} textDateTo={dateTo} />
       </div>
       <div className='mt-4 mb-1 text-slate-600 dark:text-slate-400'>
         {renderCompanyDescription(name)}

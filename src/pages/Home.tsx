@@ -1,10 +1,9 @@
-import { useEffect } from 'react';
-import Summary from '../components/home/Summary';
+import { useEffect } from "react";
+import Summary from "../components/home/Summary";
 
 const Home = () => {
   useEffect(() => {
-    console.log(`
-                                                                                                                                                                                                                
+    console.log(`                                                                                                                                                                                                     
         TTTTTTTTTTTTTTTTTTTTTTThhhhhhh                                                kkkkkkkk                          
         T:::::::::::::::::::::Th:::::h                                                k::::::k                          
         T:::::::::::::::::::::Th:::::h                                                k::::::k                          
@@ -24,9 +23,9 @@ const Home = () => {
                                                                                                                         
         `);
     console.log(
-      'A todas las personas que me han enseñado/me enseñan y me han hacen convertirme en un mejor trabajador.'
+      "A todas las personas que me han enseñado/me enseñan y me han hacen convertirme en un mejor trabajador."
     );
-    console.log('Mención a A. Guerra, que me inspiró para hacer esta web ✌️');
+    console.log("Mención a A. Guerra, que me inspiró para hacer esta web ✌️");
   }, []);
 
   return <Summary />;

@@ -1,15 +1,14 @@
 import { useTranslation } from 'react-i18next';
-import { MONTHS_NAMES } from '../../data/constants';
-import { Language } from '../../types/types';
+import { MONTHS_NAMES } from '../../../data/constants';
+import { Language } from '../../../types/types';
 import { useTimeWorked } from './hook/useTimeWorked';
 
 interface Props {
   textDateFrom: string;
-  textDateTo: Date | string;
-  current: boolean;
+  textDateTo: string | null;
 }
 
-const TimeWorked = ({ textDateFrom, textDateTo, current }: Props) => {
+const TimeWorked = ({ textDateFrom, textDateTo }: Props) => {
   const { t, i18n } = useTranslation();
 
   const { years, months, dateFrom, dateTo } = useTimeWorked(
@@ -40,16 +39,16 @@ const TimeWorked = ({ textDateFrom, textDateTo, current }: Props) => {
         </div>
         -
         <div className='ml-1'>
-          {current ? (
-            <span className='font-bold text-slate-700 dark:text-slate-300'>
-              {t('currently')}
-            </span>
-          ) : (
+          {textDateTo ? (
             <>
               {MONTHS_NAMES[currentLanguage][dateTo.getMonth()] +
                 ' ' +
                 dateTo.getFullYear()}{' '}
             </>
+          ) : (
+            <span className='font-bold text-slate-700 dark:text-slate-300'>
+              {t('currently')}
+            </span>
           )}
         </div>
       </div>

@@ -10,8 +10,8 @@ const About = () => {
     <div className="flex flex-col items-center justify-center pt-5 pb-8 font-poppins sm:pt-12">
       <TrainingAndBeginnings />
       <WorkingExperience />
-      <AboutMe />
       <SummarySkills />
+      <AboutMe />
       <Projects />
       <GoBack />
     </div>

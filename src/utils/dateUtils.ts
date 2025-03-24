@@ -1,3 +1,5 @@
+import { YEAR_STARTED_TO_WORK } from '../data/constants';
+
 export const dateUtils = {
   /**
    * Calculate how old am I.
@@ -22,9 +24,17 @@ export const dateUtils = {
   },
 
   /**
+   * Get the number of years working since my first day.
+   * @returns {number} Number of years
+   */
+  calculateYearsExperience: (): number => {
+    return new Date().getFullYear() - YEAR_STARTED_TO_WORK;
+  },
+
+  /**
    * Get the difference in milliseconds between a date and the current date.
    * @param {Date} date Date with the next format --> new Date("October 26, 1985 22:04:00").
-   * @returns {number}  Milliseconds difference from the date given.
+   * @returns {number} Milliseconds difference from the date given.
    */
   getMillisecondsDiff: (date: Date): number => {
     const currentDate = new Date();

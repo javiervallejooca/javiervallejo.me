@@ -8,7 +8,7 @@ const PageNotFound = () => {
           <h1 className='mb-5 flex text-5xl font-black'>Error 404</h1>
           <p className='pb-4'>
             La página 404 de toda la vida..., desconozco cómo has llegado hasta
-            aquí ...
+            aquí...
           </p>
           <iframe
             src='https://giphy.com/embed/g01ZnwAUvutuK8GIQn'

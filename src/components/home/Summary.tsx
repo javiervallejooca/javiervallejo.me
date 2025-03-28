@@ -1,4 +1,3 @@
-import { Trans, useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
@@ -8,11 +7,12 @@ import { MdAlternateEmail } from 'react-icons/md';
 import logo from '../../img/logo-jv.webp';
 
 import { dateUtils } from '../../utils/dateUtils';
+import { useTranslator } from '../../hook/useTranslator';
 
 const ABILITIES = ['React', 'JavaScript', 'TypeScript', 'Node', 'PHP', 'SEO'];
 
 const Summary = () => {
-  const { t } = useTranslation();
+  const { tr, trHtml } = useTranslator();
 
   return (
     <div
@@ -37,15 +37,14 @@ const Summary = () => {
               Javier Vallejo Oca
             </h1>
             <p className='text-center font-poppins text-slate-700 dark:text-slate-300 mb-0 mt-3'>
-              {t('frontend_developer')}
+              {tr('frontend_developer')}
             </p>
             <p className='text-center font-poppins text-slate-700 dark:text-slate-300 mb-3'>
-              <Trans
-                i18nKey={t('with_years_experience', {
-                  years: dateUtils.calculateYearsExperience(),
-                })}
-                components={{ b: <b />, span: <span /> }}
-              />
+              {trHtml(
+                'with_years_experience',
+                { b: <b />, span: <span /> },
+                dateUtils.calculateYearsExperience()
+              )}
             </p>
 
             {ABILITIES.map((ability) => (
@@ -96,7 +95,7 @@ const Summary = () => {
                       dark:border-slate-400 dark:bg-slate-900 dark:text-slate-400 dark:hover:border-slate-900 dark:hover:bg-slate-300 dark:hover:text-slate-900`}
               to='/sobre-mi'
             >
-              {t('view_more_information')}
+              {tr('view_more_information')}
             </Link>
           </div>
         </div>

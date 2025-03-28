@@ -1,5 +1,5 @@
 {
   "frontend_developer": "Desarrollador frontend",
-  "with_years_experience": "Con más de <span className='text-sky-500 font-bold'>{{years}} años de experiencia</span>",
+  "with_years_experience": "Con más de <span className='text-sky-500 font-bold'>{{variable}} años de experiencia</span>",
   "view_more_information": "Ver más información"
 }

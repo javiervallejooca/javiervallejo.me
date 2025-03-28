@@ -10,7 +10,7 @@
 
   "work_experience": {
     "title": "Work experience",
-    "years_of_experience": "As soon as I finished my studies I started working, so I have accumulated <span className='bg-slate-600 px-2 text-slate-200 dark:bg-slate-400 dark:text-slate-700'>{{years}} years of work experience.</span>",
+    "years_of_experience": "As soon as I finished my studies I started working, so I have accumulated <span className='bg-slate-600 px-2 text-slate-200 dark:bg-slate-400 dark:text-slate-700'>{{variable}} years of work experience.</span>",
     "companies_worked": "This is the <b>reverse chronological order</b> of the companies where I am/have been working."
   },
 
@@ -67,8 +67,8 @@
 
   "aboutMe": {
     "title": "A little more about me",
-    "level": "At level {{level}} of my life.",
-    "hobbies": "My hobbies include traveling, photography, and music. I have been a DJ for over {{yearsDjing}} years in several venues in Santander, where I was born and currently live.",
+    "level": "At level {{variable}} of my life.",
+    "hobbies": "My hobbies include traveling, photography, and music. I have been a DJ for over {{variable}} years in several venues in Santander, where I was born and currently live.",
     "djAnecdotes": "On my personal website, you can read <a className='text-slate-600 underline underline-offset-4 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300' href='https://javiervallejo.com/anecdotas-dj/' target='_blank'>DJ anecdotes</a> that I have collected over the years.",
     "officePreference": "I'm in the office-going team; as of today, I don't think I'd like or would find it easy to work in a 100% remote position.",
     "learning": "I like staying updated with new technologies that I can apply to my job, so in my free time, I program to improve my skills or acquire new ones.",

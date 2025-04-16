@@ -92,7 +92,8 @@
     "description_tareasrepetitivas_frontend": "La parte visual del gestor de tareas repetitivas creado a partir de la necesidad del gerente de un negocio de hosteleria.",
     "description_tareasrepetitivas_backend": "Toda la lógica del gestor de tareas repetitivas necesaria para que la aplicación almacene datos, sea operativa y pueda enviar emails.",
     "description_javiervallejo_me": "Página web usada a modo de CV para tenerlo al día, como particularidad, es una web multi-idioma.",
-    "description_javiervallejo_com": "Página WordPress en la cual redactaba manuales y dudas comunes de diversos usuarios acerca de WordPress y SEO, entre otros temas."
+    "description_javiervallejo_com": "Página WordPress en la cual redactaba manuales y dudas comunes de diversos usuarios acerca de WordPress y SEO, entre otros temas.",
+    "description_beernes_es": "Página que hace una cuenta atrás hacia el último viernes de cada mes, en el que la idea es hacer un descanso en el trabajo y relacionarse con los compis tomando una cerveza."
   },
 
   "back_to_home": "Volver al inicio"

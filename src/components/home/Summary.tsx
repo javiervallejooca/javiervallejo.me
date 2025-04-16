@@ -36,10 +36,10 @@ const Summary = () => {
             <h1 className='mb-2 text-center font-dmsans text-4xl font-bold tracking-tighter text-slate-800 dark:text-slate-100'>
               Javier Vallejo Oca
             </h1>
-            <p className='text-center font-poppins text-slate-700 dark:text-slate-300 mb-0 mt-3'>
+            <p className='text-center font-poppins text-slate-800 dark:text-slate-300 mb-0 mt-3'>
               {tr('frontend_developer')}
             </p>
-            <p className='text-center text-balance font-poppins text-slate-700 dark:text-slate-300 mb-3'>
+            <p className='text-center text-balance font-poppins text-slate-700 dark:text-slate-400 mb-3'>
               {trHtml(
                 'with_years_experience',
                 { b: <b />, span: <span /> },

@@ -7,6 +7,7 @@ import redireccion from '../img/projects/redireccion.png';
 import tareas_1 from '../img/projects/tareas_1.png';
 import tareas_2 from '../img/projects/tareas_2.png';
 import beernes from '../img/projects/beernes.png';
+import spotify from '../img/projects/spoty-downloadpp.png';
 
 export const PROJECTS: Project[] = [
   {
@@ -88,5 +89,18 @@ export const PROJECTS: Project[] = [
     image: beernes,
     description: 'projects.description_beernes_es',
     technologies: [TECHNOLOGY_KEYS.REACT, TECHNOLOGY_KEYS.TYPESCRIPT],
+  },
+  {
+    name: 'Spotify Downloader',
+    link: 'https://spotydownloapp.netlify.app/',
+    image: spotify,
+    description: 'projects.spotify_downloader_description',
+    technologies: [
+      TECHNOLOGY_KEYS.PREACT,
+      TECHNOLOGY_KEYS.TYPESCRIPT,
+      TECHNOLOGY_KEYS.CONTEXT_API,
+      TECHNOLOGY_KEYS.SUPABASE,
+      TECHNOLOGY_KEYS.NETLIFY,
+    ],
   },
 ];

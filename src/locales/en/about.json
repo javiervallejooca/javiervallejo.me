@@ -94,7 +94,7 @@
     "description_javiervallejo_me": "A website used as a CV to keep it up to date, with the particular feature of being a multi-language site.",
     "description_javiervallejo_com": "A WordPress site where I wrote manuals and answered common questions from various users about WordPress and SEO, among other topics.",
     "description_beernes_es": "Page that counts down to the last Friday of each month, with the idea of taking a break from work and socializing with colleagues over a beer.",
-    "spotify_downloader_description": "Tool for downloading songs from Spotify and YouTube. User authentication is managed by Supabase, and downloads are handled through endpoints created on rapidapi.com."
+    "description_spotify_downloader": "Tool for downloading songs from Spotify and YouTube. User authentication is managed by Supabase, and downloads are handled through endpoints created on rapidapi.com."
   },
 
   "back_to_home": "Back to home"

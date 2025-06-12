@@ -94,7 +94,7 @@ export const PROJECTS: Project[] = [
     name: 'Spotify Downloader',
     link: 'https://spotydownloapp.netlify.app/',
     image: spotify,
-    description: 'projects.spotify_downloader_description',
+    description: 'projects.description_spotify_downloader',
     technologies: [
       TECHNOLOGY_KEYS.PREACT,
       TECHNOLOGY_KEYS.TYPESCRIPT,

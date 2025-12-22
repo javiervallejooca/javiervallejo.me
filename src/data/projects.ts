@@ -24,25 +24,26 @@ export const PROJECTS: Project[] = [
   },
   {
     name: 'La redirección 301',
-    link: 'https://laredireccion301.com',
+    link: 'https://laredireccion301.netlify.app/',
     image: redireccion,
     description: 'projects.description_laredireccion',
     technologies: [
       TECHNOLOGY_KEYS.REACT,
-      TECHNOLOGY_KEYS.TYPESCRIPT,
+      TECHNOLOGY_KEYS.JAVASCRIPT,
       TECHNOLOGY_KEYS.TAILWIND,
       TECHNOLOGY_KEYS.CONTEXT_API,
     ],
   },
   {
     name: 'Tareas repetitivas // Frontend',
-    link: 'https://laredireccion301.netlify.app/',
+    link: 'https://tareasrepetitivas.com',
     image: tareas_1,
     description: 'projects.description_tareasrepetitivas_frontend',
     technologies: [
       TECHNOLOGY_KEYS.REACT,
-      TECHNOLOGY_KEYS.JAVASCRIPT,
-      TECHNOLOGY_KEYS.TAILWIND,
+      TECHNOLOGY_KEYS.TYPESCRIPT,
+      TECHNOLOGY_KEYS.MUI,
+      TECHNOLOGY_KEYS.ZUSTAND,
     ],
   },
   {

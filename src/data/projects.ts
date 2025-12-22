@@ -83,17 +83,17 @@ export const PROJECTS: Project[] = [
       TECHNOLOGY_KEYS.JAVASCRIPT,
     ],
   },
-  // {
-  //   name: 'Web Beernes',
-  //   link: 'https://beernes.netlify.app',
-  //   image: beernes,
-  //   description: 'projects.description_beernes_es',
-  //   technologies: [
-  //     TECHNOLOGY_KEYS.REACT,
-  //     TECHNOLOGY_KEYS.TYPESCRIPT,
-  //     TECHNOLOGY_KEYS.NETLIFY,
-  //   ],
-  // },
+  {
+    name: 'Web Beernes',
+    link: 'https://beernes.netlify.app',
+    image: beernes,
+    description: 'projects.description_beernes_es',
+    technologies: [
+      TECHNOLOGY_KEYS.REACT,
+      TECHNOLOGY_KEYS.TYPESCRIPT,
+      TECHNOLOGY_KEYS.NETLIFY,
+    ],
+  },
   {
     name: 'Spotify Downloader',
     link: 'https://spotydownloapp.netlify.app/',

@@ -36,14 +36,13 @@ export const PROJECTS: Project[] = [
   },
   {
     name: 'Tareas repetitivas // Frontend',
-    link: 'https://tareasrepetitivas.com',
+    link: 'https://laredireccion301.netlify.app/',
     image: tareas_1,
     description: 'projects.description_tareasrepetitivas_frontend',
     technologies: [
       TECHNOLOGY_KEYS.REACT,
-      TECHNOLOGY_KEYS.TYPESCRIPT,
-      TECHNOLOGY_KEYS.MUI,
-      TECHNOLOGY_KEYS.ZUSTAND,
+      TECHNOLOGY_KEYS.JAVASCRIPT,
+      TECHNOLOGY_KEYS.TAILWIND,
     ],
   },
   {

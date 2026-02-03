@@ -12,7 +12,7 @@ export const COMPANIES_WHERE_I_WORK = [
     dateTo: null,
     job: 'frontend-developer',
     color: '#212f40',
-    tecnologies: ['Preact', 'TypeScript', 'Axios', 'MUI', 'GIT'],
+    tecnologies: ['Preact', 'TypeScript', 'Bootstrap', 'GIT', 'Linux'],
   },
   {
     name: COMPANY_INGECID,
